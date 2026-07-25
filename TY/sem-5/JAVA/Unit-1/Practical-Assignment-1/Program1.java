@@ -7,3 +7,9 @@ class Program1 {
         System.out.println("College Address: XYZ College, Andheri West, Mumbai - 400058");
     }
 }
+/* 
+ * OUTPUT:
+ * Full Name: John Doe
+ * Address: 123, Main Street, Mumbai - 400001
+ * College Address: XYZ College, Andheri West, Mumbai - 400058
+ */

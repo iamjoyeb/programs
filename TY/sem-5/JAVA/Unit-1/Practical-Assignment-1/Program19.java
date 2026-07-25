@@ -16,3 +16,11 @@ class Program19 {
         System.out.println("Addition: " + sum);
     }
 }
+/* 
+ * SAMPLE OUTPUT (run: java Program19 25 17):
+ * First number: 25.0
+ * Second number: 17.0
+ * Addition: 42.0
+ * 
+ * (If insufficient args): Please provide two numbers as command line arguments.
+ */

@@ -19,3 +19,12 @@ class Program23 {
         System.out.println("Simple Interest: " + simpleInterest);
     }
 }
+/* 
+ * SAMPLE OUTPUT (run: java Program23 10000 5.5 3):
+ * Principal: 10000.0
+ * Rate: 5.5%
+ * Time: 3.0 years
+ * Simple Interest: 1650.0
+ * 
+ * (If insufficient args): Please provide principal, rate and time as command line arguments.
+ */

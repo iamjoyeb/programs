@@ -14,3 +14,8 @@ class Program3 {
         sc.close();
     }
 }
+/* 
+ * SAMPLE OUTPUT:
+ * Enter any string: Hello World!
+ * You entered: Hello World!
+ */

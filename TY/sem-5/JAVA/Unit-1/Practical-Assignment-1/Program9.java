@@ -27,3 +27,14 @@ class Program9 {
         sc.close();
     }
 }
+/* 
+ * SAMPLE OUTPUT (Armstrong):
+ * Enter a number: 153
+ * 153 is an Armstrong number.
+ * 
+ * SAMPLE OUTPUT (Not Armstrong):
+ * Enter a number: 123
+ * 123 is not an Armstrong number.
+ *
+ * Note: 153 = 1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153
+ */

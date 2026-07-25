@@ -14,3 +14,10 @@ class Program17 {
         System.out.println("Area of circle: " + area);
     }
 }
+/* 
+ * SAMPLE OUTPUT (run: java Program17 7):
+ * Radius: 7.0
+ * Area of circle: 153.93804002589985
+ * 
+ * (If no argument): Please provide radius as command line argument.
+ */

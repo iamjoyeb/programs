@@ -20,3 +20,10 @@ class Program4 {
         sc.close();
     }
 }
+/* 
+ * SAMPLE OUTPUT:
+ * Enter Principal amount: 10000
+ * Enter Rate of interest (per annum): 5.5
+ * Enter Time period (years): 3
+ * Simple Interest: 1650.0
+ */

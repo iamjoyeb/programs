@@ -35,3 +35,14 @@ class Program5 {
         s.displayDetails();
     }
 }
+/* 
+ * SAMPLE OUTPUT:
+ * Enter Roll Number: 101
+ * Enter Student Name: Alice
+ * Enter City: Pune
+ * 
+ * --- Student Details ---
+ * Roll Number: 101
+ * Student Name: Alice
+ * City: Pune
+ */

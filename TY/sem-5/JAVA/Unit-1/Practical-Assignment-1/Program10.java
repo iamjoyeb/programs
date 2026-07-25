@@ -26,3 +26,12 @@ class Program10 {
         sc.close();
     }
 }
+/* 
+ * SAMPLE OUTPUT (Palindrome):
+ * Enter a number: 121
+ * 121 is a palindrome number.
+ * 
+ * SAMPLE OUTPUT (Not Palindrome):
+ * Enter a number: 123
+ * 123 is not a palindrome number.
+ */

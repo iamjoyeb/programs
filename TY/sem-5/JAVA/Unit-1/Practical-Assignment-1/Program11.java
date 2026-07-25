@@ -21,3 +21,8 @@ class Program11 {
         sc.close();
     }
 }
+/* 
+ * SAMPLE OUTPUT:
+ * Enter a number: 12345
+ * Reversed number is: 54321
+ */

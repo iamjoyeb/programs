@@ -16,3 +16,11 @@ class Program21 {
         System.out.println("Multiplication: " + product);
     }
 }
+/* 
+ * SAMPLE OUTPUT (run: java Program21 8 12):
+ * First number: 8.0
+ * Second number: 12.0
+ * Multiplication: 96.0
+ * 
+ * (If insufficient args): Please provide two numbers as command line arguments.
+ */

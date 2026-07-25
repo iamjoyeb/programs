@@ -19,3 +19,9 @@ class Program13 {
         sc.close();
     }
 }
+/* 
+ * SAMPLE OUTPUT:
+ * Enter a number: 5
+ * Factorial of 5 is: 120
+ * (Explanation: 5! = 1 × 2 × 3 × 4 × 5 = 120)
+ */

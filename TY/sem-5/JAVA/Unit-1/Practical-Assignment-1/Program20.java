@@ -16,3 +16,11 @@ class Program20 {
         System.out.println("Subtraction: " + diff);
     }
 }
+/* 
+ * SAMPLE OUTPUT (run: java Program20 50 15):
+ * First number: 50.0
+ * Second number: 15.0
+ * Subtraction: 35.0
+ * 
+ * (If insufficient args): Please provide two numbers as command line arguments.
+ */

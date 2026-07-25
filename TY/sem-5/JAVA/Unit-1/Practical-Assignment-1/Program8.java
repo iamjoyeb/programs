@@ -27,3 +27,10 @@ class Program8 {
         sc.close();
     }
 }
+/* 
+ * SAMPLE OUTPUT:
+ * Enter first number: 10
+ * Enter second number: 25
+ * Enter third number: 7
+ * Maximum number is: 25
+ */

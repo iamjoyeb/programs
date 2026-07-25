@@ -23,3 +23,10 @@ class Program16 {
         sc.close();
     }
 }
+/* 
+ * SAMPLE OUTPUT:
+ * Enter the number of terms: 6
+ * Series: 1, 3, 6, 11, 18, 29
+ * 
+ * (Differences: +2, +3, +5, +7, +11 which are successive prime numbers)
+ */

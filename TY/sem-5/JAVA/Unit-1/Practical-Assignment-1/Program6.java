@@ -30,3 +30,19 @@ class Program6 {
         sc.close();
     }
 }
+/* 
+ * SAMPLE OUTPUT:
+ * Enter Employee No: 101
+ * Enter Employee Name: John Smith
+ * Enter Basic Salary: 50000
+ * Enter HRA: 15000
+ * Enter DA: 10000
+ * 
+ * --- Employee Information ---
+ * Employee No: 101
+ * Employee Name: John Smith
+ * Basic Salary: 50000.0
+ * HRA: 15000.0
+ * DA: 10000.0
+ * Total Salary: 75000.0
+ */

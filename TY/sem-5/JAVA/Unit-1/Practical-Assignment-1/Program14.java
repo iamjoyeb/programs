@@ -24,3 +24,8 @@ class Program14 {
         sc.close();
     }
 }
+/* 
+ * SAMPLE OUTPUT:
+ * Enter the number of terms: 7
+ * Fibonacci Series: 0, 1, 1, 2, 3, 5, 8
+ */

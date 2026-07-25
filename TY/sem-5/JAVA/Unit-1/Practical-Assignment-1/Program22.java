@@ -22,3 +22,12 @@ class Program22 {
         System.out.println("Division: " + quotient);
     }
 }
+/* 
+ * SAMPLE OUTPUT (run: java Program22 100 3):
+ * First number: 100.0
+ * Second number: 3.0
+ * Division: 33.333333333333336
+ * 
+ * (If b = 0): Division by zero is not allowed.
+ * (If insufficient args): Please provide two numbers as command line arguments.
+ */

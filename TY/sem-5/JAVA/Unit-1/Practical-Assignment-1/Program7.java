@@ -18,3 +18,11 @@ class Program7 {
         sc.close();
     }
 }
+/* 
+ * SAMPLE OUTPUT:
+ * Enter a number: 7
+ * 7 is Odd
+ * 
+ * Enter a number: 10
+ * 10 is Even
+ */

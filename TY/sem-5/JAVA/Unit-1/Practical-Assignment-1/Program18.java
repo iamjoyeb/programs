@@ -16,3 +16,11 @@ class Program18 {
         System.out.println("Area of rectangle: " + area);
     }
 }
+/* 
+ * SAMPLE OUTPUT (run: java Program18 10 5):
+ * Length: 10.0
+ * Width: 5.0
+ * Area of rectangle: 50.0
+ * 
+ * (If insufficient args): Please provide length and width as command line arguments.
+ */

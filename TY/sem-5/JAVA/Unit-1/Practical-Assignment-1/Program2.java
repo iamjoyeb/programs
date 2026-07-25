@@ -24,3 +24,14 @@ class Program2 {
         sc.close();
     }
 }
+/* 
+ * SAMPLE OUTPUT:
+ * Enter first number: 15
+ * Enter second number: 4
+ * Addition: 19.0
+ * Subtraction: 11.0
+ * Multiplication: 60.0
+ * Division: 3.75
+ * 
+ * (If b = 0): Division: Cannot divide by zero
+ */
