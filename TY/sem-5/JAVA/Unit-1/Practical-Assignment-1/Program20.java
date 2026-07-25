@@ -7,13 +7,17 @@ class Program20 {
             return;
         }
         
-        double a = Double.parseDouble(args[0]);
-        double b = Double.parseDouble(args[1]);
-        double diff = a - b;
-        
-        System.out.println("First number: " + a);
-        System.out.println("Second number: " + b);
-        System.out.println("Subtraction: " + diff);
+        try {
+            double a = Double.parseDouble(args[0]);
+            double b = Double.parseDouble(args[1]);
+            double diff = a - b;
+            
+            System.out.println("First number: " + a);
+            System.out.println("Second number: " + b);
+            System.out.println("Subtraction: " + diff);
+        } catch (NumberFormatException e) {
+            System.out.println("Invalid input! Please provide numeric values for both numbers.");
+        }
     }
 }
 /* 
@@ -23,4 +27,5 @@ class Program20 {
  * Subtraction: 35.0
  * 
  * (If insufficient args): Please provide two numbers as command line arguments.
+ * (If invalid argument): Invalid input! Please provide numeric values for both numbers.
  */

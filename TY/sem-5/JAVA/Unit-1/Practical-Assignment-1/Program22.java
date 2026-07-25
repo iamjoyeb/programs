@@ -7,19 +7,23 @@ class Program22 {
             return;
         }
         
-        double a = Double.parseDouble(args[0]);
-        double b = Double.parseDouble(args[1]);
-        
-        if (b == 0) {
-            System.out.println("Division by zero is not allowed.");
-            return;
+        try {
+            double a = Double.parseDouble(args[0]);
+            double b = Double.parseDouble(args[1]);
+            
+            if (b == 0) {
+                System.out.println("Division by zero is not allowed.");
+                return;
+            }
+            
+            double quotient = a / b;
+            
+            System.out.println("First number: " + a);
+            System.out.println("Second number: " + b);
+            System.out.println("Division: " + quotient);
+        } catch (NumberFormatException e) {
+            System.out.println("Invalid input! Please provide numeric values for both numbers.");
         }
-        
-        double quotient = a / b;
-        
-        System.out.println("First number: " + a);
-        System.out.println("Second number: " + b);
-        System.out.println("Division: " + quotient);
     }
 }
 /* 
@@ -30,4 +34,5 @@ class Program22 {
  * 
  * (If b = 0): Division by zero is not allowed.
  * (If insufficient args): Please provide two numbers as command line arguments.
+ * (If invalid argument): Invalid input! Please provide numeric values for both numbers.
  */

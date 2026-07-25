@@ -14,7 +14,12 @@ class Program9 {
         
         while (num > 0) {
             int digit = num % 10;
-            sum += Math.pow(digit, digits);
+            // Compute digit^digits using integer arithmetic to avoid lossy conversion
+            int power = 1;
+            for (int i = 0; i < digits; i++) {
+                power *= digit;
+            }
+            sum += power;
             num /= 10;
         }
         

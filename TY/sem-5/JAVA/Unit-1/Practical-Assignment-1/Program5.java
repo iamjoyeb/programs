@@ -8,8 +8,7 @@ class Student {
     String sname;
     String city;
     
-    void getDetails() {
-        Scanner sc = new Scanner(System.in);
+    void getDetails(Scanner sc) {
         System.out.print("Enter Roll Number: ");
         rno = sc.nextInt();
         sc.nextLine(); // consume newline
@@ -17,7 +16,6 @@ class Student {
         sname = sc.nextLine();
         System.out.print("Enter City: ");
         city = sc.nextLine();
-        sc.close();
     }
     
     void displayDetails() {
@@ -30,9 +28,11 @@ class Student {
 
 class Program5 {
     public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
         Student s = new Student();
-        s.getDetails();
+        s.getDetails(sc);
         s.displayDetails();
+        sc.close();
     }
 }
 /* 

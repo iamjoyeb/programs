@@ -7,11 +7,15 @@ class Program17 {
             return;
         }
         
-        double radius = Double.parseDouble(args[0]);
-        double area = Math.PI * radius * radius;
-        
-        System.out.println("Radius: " + radius);
-        System.out.println("Area of circle: " + area);
+        try {
+            double radius = Double.parseDouble(args[0]);
+            double area = Math.PI * radius * radius;
+            
+            System.out.println("Radius: " + radius);
+            System.out.println("Area of circle: " + area);
+        } catch (NumberFormatException e) {
+            System.out.println("Invalid input! Please provide a numeric value for radius.");
+        }
     }
 }
 /* 
@@ -20,4 +24,5 @@ class Program17 {
  * Area of circle: 153.93804002589985
  * 
  * (If no argument): Please provide radius as command line argument.
+ * (If invalid argument): Invalid input! Please provide a numeric value for radius.
  */
