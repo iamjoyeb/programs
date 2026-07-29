@@ -16,50 +16,80 @@ Programs/
 │   │   │   │   └── Extra Assignment-1/          (22 programs)
 │   │   │   ├── unit 2/                          # Advanced Class Features (76 programs)
 │   │   │   │   ├── Assignment-2/
-│   │   │   │   │   ├── Constructor/
-│   │   │   │   │   ├── Constructor Overloading/
-│   │   │   │   │   ├── Copy Constructor/
-│   │   │   │   │   ├── Friend Function/
-│   │   │   │   │   ├── Inline Function/
-│   │   │   │   │   ├── Member Funtions/
-│   │   │   │   │   ├── Parametrized Constructor/
-│   │   │   │   │   └── Static/
-│   │   │   │   └── Examples/
+│   │   │   │   │   ├── Constructor/             (10 programs)
+│   │   │   │   │   ├── Constructor Overloading/ (6 programs)
+│   │   │   │   │   ├── Copy Constructor/        (10 programs)
+│   │   │   │   │   ├── Friend Function/         (10 programs)
+│   │   │   │   │   ├── Inline Function/         (10 programs)
+│   │   │   │   │   ├── Member Funtions/         (4 programs)
+│   │   │   │   │   ├── Parametrized Constructor/(10 programs)
+│   │   │   │   │   └── Static/                  (10 programs)
+│   │   │   │   └── Examples/                    (6 programs)
 │   │   │   └── unit 3/                          # Operator Overloading & Type Conversion (55 programs)
 │   │   │       ├── Assignment 3/
-│   │   │       └── Examples/
+│   │   │       │   ├── Basic TO Class Conversion/       (5 programs)
+│   │   │       │   ├── Class To Basic Conversion/       (5 programs)
+│   │   │       │   ├── Class To Class Conversion/       (5 programs)
+│   │   │       │   ├── Explicit&Implicit Type Conversion/(6 programs)
+│   │   │       │   ├── Operator OverLoading using Binary Method/(5 programs)
+│   │   │       │   ├── Operator Overloading/            (15 programs)
+│   │   │       │   └── Operator Overloading using Unary Method/(5 programs)
+│   │   │       └── Examples/                          (9 programs)
 │   │   │
-│   │   └── DFS/                                 # Data Structures (19 programs)
-│   │       ├── unit 1/                          # Sorting, Searching, Sparse Matrix
-│   │       ├── unit 2/                          # Linked Lists
-│   │       └── unit 3/                          # Stacks & Queues
+│   │   └── DFS/                                 # Data Structures in C (19 programs)
+│   │       ├── unit 1/                          # Sorting, Searching, Sparse Matrix (7 programs)
+│   │       ├── unit 2/                          # Linked Lists (5 programs)
+│   │       └── unit 3/                          # Stacks & Queues (7 programs)
+│   │           ├── Programs Using Array/        (3 programs)
+│   │           └── Programs Using Link List/    (4 programs)
 │   │
 │   └── sem-4/
 │       ├── C++-II/                              # Advanced C++ (184 programs)
-│       │   ├── Unit-1/                          # Inheritance (60 programs)
-│       │   │   ├── Assigenment-1/
-│       │   │   │   ├── Single/
-│       │   │   │   ├── Multiple/
-│       │   │   │   ├── MultiLevel/
-│       │   │   │   ├── Hierarchical/
-│       │   │   │   ├── Hybrid/
-│       │   │   │   ├── Virtual/
-│       │   │   │   ├── Abstract Class/
-│       │   │   │   ├── Constructor in Derived/
-│       │   │   │   └── Nesting of class/
-│       │   │   └── Examples/
+│       │   ├── Unit-1/                          # Inheritance (56 programs)
+│       │   │   ├── Assigenment-1/               (45 programs)
+│       │   │   │   ├── Single/                  (5 programs)
+│       │   │   │   ├── Multiple/                (5 programs)
+│       │   │   │   ├── MultiLevel/              (5 programs)
+│       │   │   │   ├── Hierarchical/            (5 programs)
+│       │   │   │   ├── Hybrid/                  (5 programs)
+│       │   │   │   ├── Virtual/                 (5 programs)
+│       │   │   │   ├── Abstract Class/          (5 programs)
+│       │   │   │   ├── Constructor in Derived/  (5 programs)
+│       │   │   │   └── Nesting of class/        (5 programs)
+│       │   │   └── Examples/                    (11 programs)
 │       │   ├── unit-2/                          # Polymorphism (49 programs)
-│       │   │   ├── Assignment-2/
-│       │   │   └── Examples/
-│       │   └── Unit-3/                          # File Handling & Streams (84 programs)
-│       │       ├── Practical Program/
-│       │       └── Practice Programs/
+│       │   │   ├── Assignment-2/                (40 programs)
+│       │   │   │   ├── Complie time polymorphism Function Overloading/ (5 programs)
+│       │   │   │   ├── Complie time polymorphism operator Overloading/ (5 programs)
+│       │   │   │   ├── Pointer in derived/      (5 programs)
+│       │   │   │   ├── Run Time Complie Polymorphism ( virtual )/      (5 programs)
+│       │   │   │   ├── This Pointer/            (5 programs)
+│       │   │   │   ├── Virtual & pure virtual Function/
+│       │   │   │   │   ├── Virtual Function/    (5 programs)
+│       │   │   │   │   └── Pure Virtual Function/(5 programs)
+│       │   │   │   └── Virtual Distructor/      (5 programs)
+│       │   │   └── Examples/                    (9 programs)
+│       │   └── Unit-3/                          # File Handling & Streams (79 programs)
+│       │       ├── Practical Program/           (25 programs)
+│       │       │   ├── Comand Line Arguement Programs/ (5 programs)
+│       │       │   ├── File Handeling programs/       (8 programs)
+│       │       │   ├── Old Paper Practical Programs [2025]/ (6 programs)
+│       │       │   ├── Random Access File (Functions)/      (5 programs)
+│       │       │   └── all-program-functions/             (1 program)
+│       │       └── Practice Programs/           (54 programs)
+│       │           ├── Advanced_Formatting_Functions/ (20 programs)
+│       │           ├── File_Handling/           (12 programs)
+│       │           ├── Formatting_Output/       (15 programs)
+│       │           └── Getline_and_Basic_Stream/ (7 programs)
 │       │
-│       └── DFS-II/                              # Advanced Data Structures (30 programs)
-│           ├── Unit-1/                          # Graphs (BFS/DFS)
-│           ├── Unit-2/                          # Binary Search Trees
-│           ├── Unit-3/                          # Series, Patterns & File I/O
-│           └── Examples/
+│       └── DFS-II/                              # Advanced Data Structures in C (29 programs)
+│           ├── Unit-1/                          # Graphs (BFS/DFS) (6 programs)
+│           │   ├── BFS_Travelling.c
+│           │   ├── adjacent_matrix.c
+│           │   └── Practical Assignment/        (4 programs)
+│           ├── Unit-2/                          # Binary Search Trees (3 programs)
+│           ├── Unit-3/                          # Series, Patterns & File I/O (11 programs)
+│           └── Examples/                        (9 programs)
 │
 └── TY/                                          # Third Year
     └── sem-5/
@@ -70,7 +100,7 @@ Programs/
         │   │   └── Practice/
         │   │       ├── practical-programs/      (3 programs)
         │   │       └── practice-programs/
-        │   │           ├── Static/              (16 programs)
+        │   │           ├── Static/              (17 programs)
         │   │           └── dynmaic/             (5 programs)
         │   └── Unit-2/
         │       └── Assignment-2/                (9 programs)
@@ -137,13 +167,13 @@ Programs/
 * Unary operator overloading
 
 **Data Structures (C)** — (19 programs)
-* **Unit 1**: Searching (Linear, Binary), Sorting (Bubble, Selection, Insertion, Merge), Sparse Matrix
-* **Unit 2**: Singly, Doubly, Circular Singly, Circular Doubly Linked Lists (with full CRUD operations)
-* **Unit 3**: Stacks (array & linked-list variants), Queues (linear array, circular array)
+* **Unit 1**: Searching (Linear, Binary), Sorting (Bubble, Selection, Insertion, Merge), Sparse Matrix (7 programs)
+* **Unit 2**: Singly, Doubly, Circular Singly, Circular Doubly Linked Lists (with full CRUD operations) (5 programs)
+* **Unit 3**: Stacks (array & linked-list variants), Queues (linear array, circular array) (7 programs)
 
 ### Semester 4 — Advanced C++ & Data Structures (SY)
 
-**Unit 1 — Inheritance** (60 programs)
+**Unit 1 — Inheritance** (56 programs)
 * Single, Multiple, Multilevel, Hierarchical, Hybrid Inheritance
 * Virtual Inheritance (diamond problem resolution)
 * Abstract Classes with pure virtual functions
@@ -157,7 +187,7 @@ Programs/
 * Base-to-derived pointer dispatch
 * Virtual Destructors
 
-**Unit 3 — File I/O, Streams & Formatting** (84 programs)
+**Unit 3 — File I/O, Streams & Formatting** (79 programs)
 * File creation, reading, writing (`ifstream`, `ofstream`)
 * Random Access files (`seekg`, `tellg`)
 * Command-Line Arguments (`argc`, `argv`)
@@ -166,10 +196,10 @@ Programs/
 * `getline()` and basic stream operations
 * File-based record management (student, employee, product)
 
-**Advanced Data Structures (C)** — (30 programs)
-* **Unit 1**: Graph representation (Adjacency Matrix), BFS & DFS traversal
-* **Unit 2**: Binary Search Tree (array-based & pointer-based), Inorder/Preorder/Postorder traversals
-* **Unit 3**: Fibonacci series, Square/Cube series, Number patterns, File I/O
+**Advanced Data Structures (C)** — (29 programs)
+* **Unit 1**: Graph representation (Adjacency Matrix), BFS & DFS traversal (6 programs)
+* **Unit 2**: Binary Search Tree (array-based & pointer-based), Inorder/Preorder/Postorder traversals (3 programs)
+* **Unit 3**: Fibonacci series, Square/Cube series, Number patterns, File I/O (11 programs)
 
 ### Semester 5 — Java, PHP & SQL (TY)
 
