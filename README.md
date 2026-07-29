@@ -75,12 +75,12 @@ Programs/
         │   └── Unit-2/
         │       └── Assignment-2/                (9 programs)
         │
-        ├── PHP/                                 # PHP Programming (63 programs)
+        ├── PHP/                                 # PHP Programming (71 programs)
         │   └── Unit-1/
         │       ├── Assignment-1/
         │       │   ├── M-programs/              (20 programs)
         │       │   └── programs/                (20 programs)
-        │       ├── Assignment-2/                (5 programs)
+        │       ├── Assignment-2/                (13 programs)
         │       └── practice-programs/
         │           ├── M-programs/              (8 programs)
         │           └── programs/                (10 programs)
@@ -96,9 +96,9 @@ Programs/
 | C++ | 362 | SY sem-3 (178) & sem-4 (184) |
 | C | 48 | SY sem-3 (19) & sem-4 (29) |
 | Java | 72 | TY sem-5 |
-| PHP | 63 | TY sem-5 |
+| PHP | 71 | TY sem-5 |
 | SQL | 1 | TY sem-5 |
-| **Total** | **546** | 4 semesters |
+| **Total** | **554** | 4 semesters |
 
 ## Topics Covered
 
@@ -170,10 +170,14 @@ Programs/
 * Practical assignments (23 programs): Palindrome check, number theory, I/O operations
 * Unit-2 Assignment (9 programs): Student grading, calculator, day-of-week, for-each loop, command-line arithmetic, shopping list, employee records, item/book class operations
 
-**PHP** (63 programs)
+**PHP** (71 programs)
 * Self-posting HTML forms with embedded PHP
-* Conditional logic (odd/even, greatest of three)
-* Loops (Fibonacci series, factorials, foreach)
+* Conditional logic (odd/even, greatest of three, ternary operator)
+* Loops (Fibonacci series, factorials, foreach, break, continue)
+* Arrays: sorting, associative arrays, 3x3 matrix operations
+* String manipulation (reverse without strrev)
+* Math formulas (area of triangle, area of rectangle)
+* Server information display (`$_SERVER`)
 * Calculator with styled UI (CSS glassmorphism design)
 * Built-in functions, switch cases, positive/negative checks
 * Basic web backend operations
