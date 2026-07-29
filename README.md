@@ -73,14 +73,15 @@ Programs/
         │               ├── Static/              (16 programs)
         │               └── dynmaic/             (5 programs)
         │
-        ├── PHP/                                 # PHP Programming (50 programs)
+        ├── PHP/                                 # PHP Programming (63 programs)
         │   └── Unit-1/
         │       ├── Assignment-1/
         │       │   ├── M-programs/              (20 programs)
         │       │   └── programs/                (20 programs)
-        │       ├── Assignment-2/                (3 programs)
+        │       ├── Assignment-2/                (5 programs)
         │       └── practice-programs/
-        │           └── M-programs/              (7 programs)
+        │           ├── M-programs/              (8 programs)
+        │           └── programs/                (10 programs)
         │
         └── oracle(database)/                    # SQL Exercises (1 file)
             └── p1.md
@@ -91,11 +92,11 @@ Programs/
 | Language | Count | Semester(s) |
 |----------|-------|-------------|
 | C++ | 362 | SY sem-3 (178) & sem-4 (184) |
-| C | 49 | SY sem-3 (19) & sem-4 (30) |
+| C | 48 | SY sem-3 (19) & sem-4 (29) |
 | Java | 63 | TY sem-5 |
-| PHP | 50 | TY sem-5 |
+| PHP | 63 | TY sem-5 |
 | SQL | 1 | TY sem-5 |
-| **Total** | **525** | 4 semesters |
+| **Total** | **537** | 4 semesters |
 
 ## Topics Covered
 
@@ -166,11 +167,12 @@ Programs/
 * Command-line arguments and exception handling
 * Practical assignments (23 programs): Palindrome check, number theory, I/O operations
 
-**PHP** (50 programs)
+**PHP** (63 programs)
 * Self-posting HTML forms with embedded PHP
 * Conditional logic (odd/even, greatest of three)
-* Loops (Fibonacci series, factorials)
+* Loops (Fibonacci series, factorials, foreach)
 * Calculator with styled UI (CSS glassmorphism design)
+* Built-in functions, switch cases, positive/negative checks
 * Basic web backend operations
 
 **Oracle SQL** (1 exercise)
