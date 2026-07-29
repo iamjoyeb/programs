@@ -39,3 +39,17 @@
             ?>
         </body>
 </html>
+<!-- Output:
+  Enter Two Numbers
+  First Number: 10
+  Second Number: 20
+  [Swap Values]
+
+  Using Third Variable
+  A = 20
+  B = 10
+
+  Without Third Variable
+  D = 20
+  E = 10
+-->

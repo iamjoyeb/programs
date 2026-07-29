@@ -57,3 +57,10 @@
     </div>
 </body>
 </html>
+
+<!-- Output:
+  Armstrong Numbers
+  Between 1 and 500
+  Result: 1  153  370  371  407
+  (displayed as styled circular badges)
+-->

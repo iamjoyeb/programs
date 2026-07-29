@@ -33,3 +33,9 @@
 			?>
 		</body>
 </html>
+<!-- Output:
+  Enter Value To Get Fibonacci Series:
+  Enter value: 8
+  [Fibonacci series]
+  Result: Fibonacci Series: 1 1 2 3 5 8 13 21
+-->

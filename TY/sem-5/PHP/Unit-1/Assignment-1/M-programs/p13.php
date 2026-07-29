@@ -69,3 +69,16 @@
     </div>
 </body>
 </html>
+
+<!-- Output:
+  Factorial Calculator
+  Enter a Number: 5
+  [Calculate Factorial]
+  Result: 5! = 120
+  Formula: 5 × 4 × 3 × 2 × 1 = 120
+
+  Enter a Number: 6
+  [Calculate Factorial]
+  Result: 6! = 720
+  Formula: 6 × 5 × 4 × 3 × 2 × 1 = 720
+-->

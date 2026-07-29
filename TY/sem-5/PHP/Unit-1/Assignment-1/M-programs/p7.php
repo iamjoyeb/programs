@@ -62,3 +62,14 @@
     </div>
 </body>
 </html>
+
+<!-- Output:
+  Sum of Numbers (1 to N)
+  Enter N: 10
+  [Calculate Sum]
+  Result: Sum of numbers from 1 to 10 = 55
+
+  Enter N: 5
+  [Calculate Sum]
+  Result: Sum of numbers from 1 to 5 = 15
+-->

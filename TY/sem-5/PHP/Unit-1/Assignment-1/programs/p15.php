@@ -30,3 +30,13 @@
 			?>
 		</body>
 </html>
+<!-- Output:
+  Enter Value To Check The Palindrome Number:
+  Enter value: 121
+  [Check Palindron Number]
+  Result: 121 is An Palindrome Number
+
+  Enter value: 123
+  [Check Palindron Number]
+  Result: 123 is Not An Palindrome Number
+-->

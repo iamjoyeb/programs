@@ -22,3 +22,13 @@
 			?>
 		</body>
 </html>
+<!-- Output:
+  Enter Value To check That it is Leap year Or Not:
+  Enter value: 2024
+  [Check Leap Year Or Not]
+  Result: 2024 is An Leap Year.
+
+  Enter value: 2023
+  [Check Leap Year Or Not]
+  Result: 2023 is Not An Leap Year.
+-->

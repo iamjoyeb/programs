@@ -73,3 +73,14 @@
     </div>
 </body>
 </html>
+
+<!-- Output:
+  Palindrome Number Checker
+  Enter a Number: 121
+  [Check Palindrome]
+  Result: 121 IS a Palindrome Number.
+
+  Enter a Number: 123
+  [Check Palindrome]
+  Result: 123 is NOT a Palindrome Number.
+-->

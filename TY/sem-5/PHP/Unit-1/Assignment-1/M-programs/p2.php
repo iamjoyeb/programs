@@ -72,3 +72,18 @@
     </div>
 </body>
 </html>
+
+<!-- Output:
+  Positive / Negative / Zero Checker
+  Enter a Number: -5
+  [Check]
+  Result: -5 is a Negative value.
+
+  Enter a Number: 10
+  [Check]
+  Result: 10 is a Positive value.
+
+  Enter a Number: 0
+  [Check]
+  Result: The value is Zero.
+-->

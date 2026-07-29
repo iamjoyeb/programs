@@ -25,3 +25,17 @@
 			?>
 		</body>
 </html>
+<!-- Output:
+  Enter Value To check Value is Greater Then or Less then or Equal to 100:
+  Enter Value: 150
+  [Check]
+  Result: 150-> Greater Then 100
+
+  Enter Value: 75
+  [Check]
+  Result: 75-> Less Then 100
+
+  Enter Value: 100
+  [Check]
+  Result: value is Equal To 100
+-->

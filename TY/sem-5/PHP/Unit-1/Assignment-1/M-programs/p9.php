@@ -78,3 +78,12 @@
     </div>
 </body>
 </html>
+
+<!-- Output:
+  Greatest of Three Numbers
+  Number 1: 10
+  Number 2: 25
+  Number 3: 15
+  [Find Greatest]
+  Result: 25 is the greatest number.
+-->

@@ -77,3 +77,10 @@
     </div>
 </body>
 </html>
+
+<!-- Output:
+  Fibonacci Series
+  Enter Number of Terms: 8
+  [Generate Series]
+  Result: Fibonacci Series (8 terms): 1 → 1 → 2 → 3 → 5 → 8 → 13 → 21
+-->

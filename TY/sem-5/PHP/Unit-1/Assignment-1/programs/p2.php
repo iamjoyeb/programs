@@ -25,3 +25,17 @@
 			?>
 		</body>
 </html>
+<!-- Output:
+  Enter Value To Check Value is Psotivie or Negative:
+  Enter Value: -5
+  [Check]
+  Result: -5-> is Negative value
+
+  Enter Value: 10
+  [Check]
+  Result: 10-> Positive value
+
+  Enter Value: 0
+  [Check]
+  Result: value is Zero
+-->

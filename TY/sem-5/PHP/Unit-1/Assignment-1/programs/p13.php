@@ -21,3 +21,13 @@
 			?>
 		</body>
 </html>
+<!-- Output:
+  Enter Value To Get Factorial Number:
+  Enter value: 5
+  [Get Factorial]
+  Result: Factorial of :5is120
+
+  Enter value: 6
+  [Get Factorial]
+  Result: Factorial of :6is720
+-->

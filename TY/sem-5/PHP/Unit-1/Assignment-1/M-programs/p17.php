@@ -76,3 +76,14 @@
     </div>
 </body>
 </html>
+
+<!-- Output:
+  Prime Number Checker
+  Enter a Number: 17
+  [Check Prime]
+  Result: 17 IS a Prime Number.
+
+  Enter a Number: 15
+  [Check Prime]
+  Result: 15 is NOT a Prime Number.
+-->

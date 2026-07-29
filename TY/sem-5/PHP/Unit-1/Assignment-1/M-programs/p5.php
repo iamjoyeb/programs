@@ -63,3 +63,14 @@
     </div>
 </body>
 </html>
+
+<!-- Output:
+  Leap Year Checker
+  Enter a Year: 2024
+  [Check Leap Year]
+  Result: 2024 is a Leap Year.
+
+  Enter a Year: 2023
+  [Check Leap Year]
+  Result: 2023 is NOT a Leap Year.
+-->

@@ -21,3 +21,13 @@
 			?>
 		</body>
 </html>
+<!-- Output:
+  Enter Value To Get Sum:
+  Enter value: 10
+  [Print Multiplication of Number]
+  Result: Sum: 55
+
+  Enter value: 5
+  [Print Multiplication of Number]
+  Result: Sum: 15
+-->

@@ -34,3 +34,13 @@
 			?>
 		</body>
 </html>
+<!-- Output:
+  Enter Value To Check The Prime Number:
+  Enter value: 17
+  [Check Prime Number]
+  Result: 17 Is A Prime Number
+
+  Enter value: 15
+  [Check Prime Number]
+  Result: 15 Is Not Prime Number
+-->

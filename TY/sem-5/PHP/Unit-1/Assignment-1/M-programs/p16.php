@@ -73,3 +73,14 @@
     </div>
 </body>
 </html>
+
+<!-- Output:
+  Armstrong Number Checker
+  Enter a Number (3 digits): 153
+  [Check Armstrong]
+  Result: 153 IS an Armstrong Number.
+
+  Enter a Number (3 digits): 123
+  [Check Armstrong]
+  Result: 123 is NOT an Armstrong Number.
+-->

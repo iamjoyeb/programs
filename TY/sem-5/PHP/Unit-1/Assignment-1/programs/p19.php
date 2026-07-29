@@ -15,3 +15,11 @@
             }
     }				
 ?>
+<!-- Output:
+  ArmStrong NUmber from 1to 500 as under:
+  1
+  153
+  370
+  371
+  407
+-->

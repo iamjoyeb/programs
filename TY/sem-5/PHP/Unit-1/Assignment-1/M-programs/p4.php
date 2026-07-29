@@ -68,3 +68,18 @@
     </div>
 </body>
 </html>
+
+<!-- Output:
+  Compare Number with 100
+  Enter a Number: 150
+  [Compare with 100]
+  Result: 150 is greater than 100.
+
+  Enter a Number: 75
+  [Compare with 100]
+  Result: 75 is less than 100.
+
+  Enter a Number: 100
+  [Compare with 100]
+  Result: The value is equal to 100.
+-->

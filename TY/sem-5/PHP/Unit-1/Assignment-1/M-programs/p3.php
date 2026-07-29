@@ -303,3 +303,20 @@
     </div>
 </body>
 </html>
+
+<!-- Output:
+  Calculator
+  Number 1: 10
+  Number 2: 5
+
+  Click [+] → Addition: 10 + 5 = 15
+  Click [−] → Subtraction: 10 − 5 = 5
+  Click [×] → Multiplication: 10 × 5 = 50
+  Click [÷] → Division: 10 ÷ 5 = 2
+
+  Click [📊 All Calculations] →
+    Addition: 10 + 5 = 15
+    Subtraction: 10 − 5 = 5
+    Multiplication: 10 × 5 = 50
+    Division: 10 ÷ 5 = 2
+-->

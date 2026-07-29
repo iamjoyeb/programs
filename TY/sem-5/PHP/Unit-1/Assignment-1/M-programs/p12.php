@@ -58,3 +58,9 @@
     </div>
 </body>
 </html>
+
+<!-- Output:
+  Numbers 1 to 10
+  Using a Do...While Loop
+  Result: 1  2  3  4  5  6  7  8  9  10 (displayed as animated circular badges)
+-->

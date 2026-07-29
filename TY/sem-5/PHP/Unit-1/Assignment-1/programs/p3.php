@@ -64,3 +64,19 @@
 			?>
 		</body>
 </html>
+<!-- Output:
+  Enter Value for Calculation:
+  Enter Value 1: 10
+  Enter Value 2: 5
+
+  Click [+] → Addition is: 15
+  Click [-] → Substraction is: 5
+  Click [*] → Multiplication is: 50
+  Click [/] → Division is: 2
+
+  Click [All Calculations] →
+    Addtion is: 15
+    Substraction is: 5
+    Multiplication is: 50
+    Division is: 2
+-->

@@ -29,3 +29,11 @@
 			?>
 		</body>
 </html>
+<!-- Output:
+  Enter Value To Get Gretaest Value:
+  Enter value 1: 10
+  Enter value 2: 25
+  Enter value 3: 15
+  [Check Greatest Value among all this 3 Values]
+  Result: 25 > is Greater
+-->

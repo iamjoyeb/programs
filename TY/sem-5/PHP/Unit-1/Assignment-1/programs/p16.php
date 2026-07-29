@@ -30,3 +30,13 @@
 			?>
 		</body>
 </html>
+<!-- Output:
+  Enter Value To Check The Armstrong Number:
+  Enter value: 153
+  [Check Armstrong Number]
+  Result: 153 is An Armstrong Number
+
+  Enter value: 123
+  [Check Armstrong Number]
+  Result: 123 is Not An Armstrong Number
+-->

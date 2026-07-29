@@ -22,3 +22,13 @@
 			?>
 		</body>
 </html>
+<!-- Output:
+  Enter Value To Get Reverse Number:
+  Enter value: 1234
+  [Get Reverse Number]
+  Result: Reverse Number is: 4321
+
+  Enter value: 5678
+  [Get Reverse Number]
+  Result: Reverse Number is: 8765
+-->

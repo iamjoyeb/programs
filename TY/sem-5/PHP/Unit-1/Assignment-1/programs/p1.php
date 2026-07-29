@@ -22,3 +22,13 @@
 			?>
 		</body>
 </html>
+<!-- Output:
+  Enter Value To check Odd or Even:
+  Enter value: 7
+  [Check Odd or Even]
+  Result: 7 is an odd number.
+
+  Enter value: 12
+  [Check Odd or Even]
+  Result: 12 is an even number.
+-->

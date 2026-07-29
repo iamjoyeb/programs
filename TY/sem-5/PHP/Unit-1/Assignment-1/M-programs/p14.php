@@ -68,3 +68,14 @@
     </div>
 </body>
 </html>
+
+<!-- Output:
+  Reverse a Number
+  Enter a Number: 1234
+  [Reverse Number]
+  Result: Original: 1234 → Reversed: 4321
+
+  Enter a Number: 5678
+  [Reverse Number]
+  Result: Original: 5678 → Reversed: 8765
+-->

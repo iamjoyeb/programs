@@ -110,3 +110,14 @@
     </div>
 </body>
 </html>
+
+<!-- Output:
+  Odd or Even Checker
+  Enter a Number: 7
+  [Check Odd or Even]
+  Result: 7 is an odd number.
+
+  Enter a Number: 12
+  [Check Odd or Even]
+  Result: 12 is an even number.
+-->
