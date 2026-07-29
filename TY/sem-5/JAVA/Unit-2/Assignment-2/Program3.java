@@ -31,6 +31,7 @@ public class Program3 {
             default:
                 System.out.println("Invalid day number!");
         }
+        sc.close();
     }
 }
 

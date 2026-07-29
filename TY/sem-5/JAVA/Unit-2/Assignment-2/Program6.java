@@ -14,6 +14,7 @@ class ShoppingItem {
         itemName = sc.nextLine();
         System.out.print("Enter item price: ");
         itemPrice = sc.nextDouble();
+        sc.close();
     }
 
     void display() {
@@ -42,6 +43,7 @@ public class Program6 {
             item.display();
         }
         System.out.println("Total Price: " + totalSum);
+        sc.close();
     }
 }
 

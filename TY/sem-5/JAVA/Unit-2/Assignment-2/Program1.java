@@ -13,6 +13,7 @@ class Student {
         rollNo = sc.nextInt();
         System.out.print("Enter percentage: ");
         percentage = sc.nextDouble();
+        sc.close();
     }
 
     void display() {

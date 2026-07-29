@@ -13,6 +13,7 @@ class Item {
         qty = sc.nextInt();
         System.out.print("Enter rate: ");
         rate = sc.nextInt();
+        sc.close();
     }
 
     void dishitem() {
@@ -39,6 +40,7 @@ public class Program8 {
         for (Item item : items) {
             item.dishitem();
         }
+        sc.close();
     }
 }
 

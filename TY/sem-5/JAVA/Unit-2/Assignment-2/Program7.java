@@ -17,6 +17,7 @@ class Employee {
         age = sc.nextInt();
         System.out.print("Enter salary: ");
         salary = sc.nextDouble();
+        sc.close();
     }
 
     void display() {

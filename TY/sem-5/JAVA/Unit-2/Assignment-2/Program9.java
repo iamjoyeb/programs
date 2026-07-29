@@ -14,6 +14,7 @@ class Book {
         name = sc.nextLine();
         System.out.print("Enter price: ");
         price = sc.nextDouble();
+        sc.close();
     }
 
     void dish() {
@@ -39,6 +40,7 @@ public class Program9 {
         for (Book book : books) {
             book.dish();
         }
+        sc.close();
     }
 }
 

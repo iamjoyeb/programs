@@ -38,6 +38,7 @@ public class Program2 {
             default:
                 System.out.println("Invalid choice!");
         }
+        sc.close();
     }
 }
 
