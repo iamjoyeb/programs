@@ -85,8 +85,20 @@ Programs/
         │           ├── M-programs/              (8 programs)
         │           └── programs/                (10 programs)
         │
-        └── oracle(database)/                    # SQL Exercises (1 file)
-            └── p1.md
+        └── oracle(database)/                    # SQL Exercises (13 files)
+            ├── p1.md                             # Assignment 1: stud_result table
+            ├── p2.md                             # Assignment 2: CUSTOMER table
+            ├── p4.md                             # Assignment 4: Emp/Dept tables
+            ├── p5.md                             # Assignment 5: Customer with CHECK constraint
+            ├── p6.md                             # Assignment 6: EMP table
+            ├── p7.md                             # Assignment 7: Student table
+            ├── p8.md                             # Assignment 8: Customer billing table
+            ├── p9.md                             # Assignment 9: STUD_MEMBER & Sales tables
+            ├── p10.md                            # Assignment 10: CLIENT_MASTER table
+            ├── p11.md                            # Assignment 11: ACCOUNT table
+            ├── p12.md                            # Assignment 12: STUD_MEMBER table
+            ├── p13.md                            # Assignment 13: Department/Employee tables
+            └── p14.md                            # Assignment 14: SALESMEN/ITEM tables
 ```
 
 ## Statistics
@@ -97,8 +109,8 @@ Programs/
 | C | 48 | SY sem-3 (19) & sem-4 (29) |
 | Java | 72 | TY sem-5 |
 | PHP | 71 | TY sem-5 |
-| SQL | 1 | TY sem-5 |
-| **Total** | **554** | 4 semesters |
+| SQL | 13 | TY sem-5 |
+| **Total** | **566** | 4 semesters |
 
 ## Topics Covered
 
@@ -182,11 +194,21 @@ Programs/
 * Built-in functions, switch cases, positive/negative checks
 * Basic web backend operations
 
-**Oracle SQL** (1 exercise)
-* DDL: `CREATE TABLE`, `ALTER TABLE`
+**Oracle SQL** (13 exercises)
+* DDL: `CREATE TABLE`, `ALTER TABLE`, `RENAME`, `DROP`
 * DML: `INSERT`, `UPDATE`, `DELETE`
-* Queries with `WHERE`, `ORDER BY`, `BETWEEN`, `LIKE`, `OR`
-* Grading logic with multi-conditional updates
+* Constraints: `PRIMARY KEY`, `NOT NULL`, `CHECK`, `FOREIGN KEY`
+* Queries: `WHERE`, `ORDER BY`, `BETWEEN`, `LIKE`, `OR`, `IN`
+* Aggregate functions: `SUM`, `AVG`, `MIN`, `MAX`, `COUNT`, `GROUP BY`, `HAVING`
+* Joins: `JOIN ... ON`, multi-table joins
+* Subqueries: nested `SELECT`, `NOT IN`, `IN`
+* Views: `CREATE VIEW`
+* Indexes: `CREATE UNIQUE INDEX`
+* Synonyms: `CREATE SYNONYM`
+* Sequences: `CREATE SEQUENCE` with `NOCYCLE`
+* String functions: `SUBSTR`, `INSTR`, `RPAD`, `INITCAP`, `LENGTH`
+* Date functions: `MONTHS_BETWEEN`, `SYSDATE`, `TO_CHAR`
+* `DEFAULT` values, column addition, constraint modification
 
 ## How to Compile and Run
 
