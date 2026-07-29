@@ -20,13 +20,14 @@
 	{
 		$Name=$_POST['Name'];
 		$Age=$_POST['Age'];
-		$temp=array();
+		$temp1=array();
 		
-			for($i=1;$i<=count($Name);$i++){
-				$temp=[$Name[$i]]=[$Age[$i]];
+			for($i=0;$i<count($Name);$i++){
+				$temp1[$Name[$i]]=$Age[$i];
 			}
-			foreach($temp as $value){
-				echo "Name an is: ".$value."<br>";
+			foreach($temp1 as $j=>$values){
+				echo "Name is: ".$j."<br>";
+				echo "Age is: ".$values."<br>";
 			}
 		
 	}
