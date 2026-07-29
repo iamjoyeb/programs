@@ -21,7 +21,6 @@
                      echo "value is Zero";
                     }
 				}
-                
 			?>
 		</body>
 </html>

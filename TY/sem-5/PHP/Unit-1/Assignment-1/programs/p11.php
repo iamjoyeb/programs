@@ -4,7 +4,7 @@
     $i=1;
 
         echo "Printing numbers 1 to 10 using while loop <br>";
-    while($i<=10){
+    while($i<=$a){
         echo $i,"<br>";
         $i++;
     }
