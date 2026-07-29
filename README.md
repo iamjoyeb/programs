@@ -63,15 +63,17 @@ Programs/
 │
 └── TY/                                          # Third Year
     └── sem-5/
-        ├── JAVA/                                # Java Programming (63 programs)
+        ├── JAVA/                                # Java Programming (72 programs)
         │   ├── Practice/                        (15 programs)
-        │   └── Unit-1/
-        │       ├── Practical-Assignment-1/      (23 programs)
-        │       └── Practice/
-        │           ├── practical-programs/      (3 programs)
-        │           └── practice-programs/
-        │               ├── Static/              (16 programs)
-        │               └── dynmaic/             (5 programs)
+        │   ├── Unit-1/
+        │   │   ├── Practical-Assignment-1/      (23 programs)
+        │   │   └── Practice/
+        │   │       ├── practical-programs/      (3 programs)
+        │   │       └── practice-programs/
+        │   │           ├── Static/              (16 programs)
+        │   │           └── dynmaic/             (5 programs)
+        │   └── Unit-2/
+        │       └── Assignment-2/                (9 programs)
         │
         ├── PHP/                                 # PHP Programming (63 programs)
         │   └── Unit-1/
@@ -93,10 +95,10 @@ Programs/
 |----------|-------|-------------|
 | C++ | 362 | SY sem-3 (178) & sem-4 (184) |
 | C | 48 | SY sem-3 (19) & sem-4 (29) |
-| Java | 63 | TY sem-5 |
+| Java | 72 | TY sem-5 |
 | PHP | 63 | TY sem-5 |
 | SQL | 1 | TY sem-5 |
-| **Total** | **537** | 4 semesters |
+| **Total** | **546** | 4 semesters |
 
 ## Topics Covered
 
@@ -159,13 +161,14 @@ Programs/
 
 ### Semester 5 — Java, PHP & SQL (TY)
 
-**Java** (63 programs)
+**Java** (72 programs)
 * Basic I/O with `Scanner`
-* Conditionals (`if-else`, `switch`), Loops (`for`, `while`, `break`)
+* Conditionals (`if-else`, `switch`), Loops (`for`, `while`, `break`, for-each)
 * Arrays, Object-Oriented basics (`class`, `object`, `inheritance`)
 * Interfaces
 * Command-line arguments and exception handling
 * Practical assignments (23 programs): Palindrome check, number theory, I/O operations
+* Unit-2 Assignment (9 programs): Student grading, calculator, day-of-week, for-each loop, command-line arithmetic, shopping list, employee records, item/book class operations
 
 **PHP** (63 programs)
 * Self-posting HTML forms with embedded PHP
