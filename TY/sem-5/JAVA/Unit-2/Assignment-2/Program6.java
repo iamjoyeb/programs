@@ -44,3 +44,23 @@ public class Program6 {
         System.out.println("Total Price: " + totalSum);
     }
 }
+
+/*
+Output:
+Enter number of items: 2
+
+Item 1:
+Enter item code: 101
+Enter item name: Laptop
+Enter item price: 45000
+
+Item 2:
+Enter item code: 102
+Enter item name: Mouse
+Enter item price: 500
+
+--- Shopping List ---
+Code: 101 | Name: Laptop | Price: 45000.0
+Code: 102 | Name: Mouse | Price: 500.0
+Total Price: 45500.0
+*/

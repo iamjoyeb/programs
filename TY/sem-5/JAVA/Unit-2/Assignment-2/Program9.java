@@ -41,3 +41,22 @@ public class Program9 {
         }
     }
 }
+
+/*
+Output:
+Enter number of books: 2
+
+Book 1:
+Enter accession number: 501
+Enter book name: Data Structures
+Enter price: 450
+
+Book 2:
+Enter accession number: 502
+Enter book name: Java Programming
+Enter price: 380
+
+--- Book Details ---
+Acc No: 501 | Name: Data Structures | Price: 450.0
+Acc No: 502 | Name: Java Programming | Price: 380.0
+*/

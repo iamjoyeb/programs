@@ -33,3 +33,9 @@ public class Program3 {
         }
     }
 }
+
+/*
+Output:
+Enter day number (1-7): 3
+Wednesday
+*/

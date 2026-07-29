@@ -41,3 +41,22 @@ public class Program8 {
         }
     }
 }
+
+/*
+Output:
+Enter number of items: 2
+
+Item 1:
+Enter item number: 10
+Enter quantity: 5
+Enter rate: 100
+
+Item 2:
+Enter item number: 20
+Enter quantity: 3
+Enter rate: 250
+
+--- Item Details ---
+Item No: 10 | Qty: 5 | Rate: 100 | Amount: 500
+Item No: 20 | Qty: 3 | Rate: 250 | Amount: 750
+*/

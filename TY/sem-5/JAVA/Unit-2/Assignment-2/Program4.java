@@ -21,3 +21,22 @@ public class Program4 {
         }
     }
 }
+
+/*
+Output:
+Array elements:
+10
+20
+30
+40
+50
+
+Sum of elements: 150
+
+Even numbers:
+10
+20
+30
+40
+50
+*/

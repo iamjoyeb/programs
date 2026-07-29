@@ -42,3 +42,16 @@ public class Program1 {
         s.display();
     }
 }
+
+/*
+Output:
+Enter student name: Rahul
+Enter roll number: 101
+Enter percentage: 75.5
+
+--- Student Details ---
+Name: Rahul
+Roll No: 101
+Percentage: 75.5%
+Result: Distinction
+*/

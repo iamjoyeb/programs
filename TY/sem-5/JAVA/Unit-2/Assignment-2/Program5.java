@@ -32,3 +32,12 @@ public class Program5 {
         }
     }
 }
+
+/*
+Output:
+$ java Program5 10 + 20
+Result: 30.0
+
+$ java Program5 15 * 4
+Result: 60.0
+*/

@@ -40,3 +40,29 @@ public class Program7 {
         }
     }
 }
+
+/*
+Output:
+Employee 1:
+Enter employee number: 1
+Enter name: Amit
+Enter age: 28
+Enter salary: 50000
+
+Employee 2:
+Enter employee number: 2
+Enter name: Priya
+Enter age: 25
+Enter salary: 45000
+
+Employee 3:
+Enter employee number: 3
+Enter name: Rahul
+Enter age: 30
+Enter salary: 60000
+
+--- Employee Details ---
+No: 1 | Name: Amit | Age: 28 | Salary: 50000.0
+No: 2 | Name: Priya | Age: 25 | Salary: 45000.0
+No: 3 | Name: Rahul | Age: 30 | Salary: 60000.0
+*/
