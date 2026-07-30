@@ -1,3 +1,4 @@
+<!-- Q8. Write a PHP script to accept 10 numbers from the user and display them in ascending order. -->
 <html>
 	<head>
 	</head>
@@ -29,3 +30,28 @@
 	}
 ?>
 
+<!--
+Output:
+Number 1: 45
+Number 2: 12
+Number 3: 78
+Number 4: 3
+Number 5: 56
+Number 6: 23
+Number 7: 91
+Number 8: 8
+Number 9: 34
+Number 10: 67
+
+Number in Ascending Order:
+3
+8
+12
+23
+34
+45
+56
+67
+78
+91
+-->

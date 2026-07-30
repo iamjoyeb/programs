@@ -1,3 +1,4 @@
+<!-- Q10. Write a PHP script to display current script and server information using $_SERVER. -->
 <html>
 	<head>
 	</head>

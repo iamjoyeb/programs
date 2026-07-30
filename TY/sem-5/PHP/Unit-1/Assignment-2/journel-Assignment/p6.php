@@ -1,3 +1,4 @@
+<!-- Q6. Write a PHP script to perform multiplication of two 3x3 matrices and display the result. -->
 <html>
 	<head>
 	</head>

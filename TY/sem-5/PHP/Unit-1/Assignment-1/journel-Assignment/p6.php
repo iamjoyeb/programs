@@ -4,7 +4,7 @@
 	</head>
 		<body>
 			<form method="POST">
-				<h3> Enter Value To check Odd or Even: </h3>
+				<h3> Enter Value To Print Multiplication of Number: </h3>
 				Enter value <input type="text" name="no1">
 				<input type="submit" name="check" value="Print Multiplication of Number"><br>
 			</form>
@@ -19,7 +19,7 @@
 		</body>
 </html>
 <!-- Output:
-  Enter Value To check Odd or Even:
+  Enter Value To Print Multiplication of Number:
   Enter value: 5
   [Print Multiplication of Number]
   Result:

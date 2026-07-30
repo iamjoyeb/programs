@@ -1,3 +1,4 @@
+<!-- Q11. Write a PHP script to reverse a string without using strrev() function. -->
 <html>
 	<head>
 	</head>

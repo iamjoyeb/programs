@@ -1,3 +1,4 @@
+<!-- Q4. Write a PHP script to demonstrate the use of continue statement in a for loop. -->
 <html>
 	<head>
 	</head>

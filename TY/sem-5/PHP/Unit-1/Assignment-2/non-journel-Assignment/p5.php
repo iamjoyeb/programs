@@ -1,3 +1,4 @@
+<!-- Q5. Write a PHP script to perform addition of two 3x3 matrices and display the result. -->
 <html>
 	<head>
 	</head>

@@ -1,3 +1,4 @@
+<!-- Q2. Write a PHP script to demonstrate an associative array and display its elements using foreach loop. -->
 <html>
 	<head>
 	</head>

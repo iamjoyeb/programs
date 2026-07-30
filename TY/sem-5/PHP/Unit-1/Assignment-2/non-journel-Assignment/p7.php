@@ -1,3 +1,4 @@
+<!-- Q7. Write a PHP script to find the greatest number among three numbers. -->
 <html>
 	<head> 
 	
@@ -30,3 +31,12 @@
 				?>
 		</body>
 </html>
+
+<!--
+Output:
+Enter Value 1: 10
+Enter Value 2: 25
+Enter Value 3: 15
+
+25 IS Greatest
+-->

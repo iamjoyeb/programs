@@ -1,3 +1,4 @@
+<!-- Q12. Write a PHP script to calculate the area of a triangle given base and height. -->
 <html>
 	<head>
 	</head>

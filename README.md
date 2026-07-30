@@ -93,23 +93,30 @@ Programs/
 │
 └── TY/                                          # Third Year
     └── sem-5/
-        ├── JAVA/                                # Java Programming (72 programs)
+        ├── JAVA/                                # Java Programming (73 programs)
         │   ├── Practice/                        (15 programs)
         │   ├── Unit-1/
         │   │   ├── Practical-Assignment-1/      (23 programs)
+        │   │   │   ├── Not-journel-Assignment/  (10 programs)
+        │   │   │   └── journel-Assignment/      (13 programs)
         │   │   └── Practice/
         │   │       ├── practical-programs/      (3 programs)
         │   │       └── practice-programs/
         │   │           ├── Static/              (17 programs)
         │   │           └── dynmaic/             (5 programs)
-        │   └── Unit-2/
-        │       └── Assignment-2/                (9 programs)
+        │   ├── Unit-2/
+        │   │   └── Assignment-2/                (9 programs)
+        │   │       ├── Not-journel-Assignment/  (1 program)
+        │   │       └── journel-Assignment/      (8 programs)
+        │   └── Unit-3/
+        │       └── Practice/                    (1 program)
         │
         ├── PHP/                                 # PHP Programming (71 programs)
         │   └── Unit-1/
         │       ├── Assignment-1/
         │       │   ├── M-programs/              (20 programs)
-        │       │   └── programs/                (20 programs)
+        │       │   ├── journel-Assignment/      (17 programs)
+        │       │   └── non-journel-Assignment/  (3 programs)
         │       ├── Assignment-2/                (13 programs)
         │       └── practice-programs/
         │           ├── M-programs/              (8 programs)
@@ -137,10 +144,10 @@ Programs/
 |----------|-------|-------------|
 | C++ | 362 | SY sem-3 (178) & sem-4 (184) |
 | C | 48 | SY sem-3 (19) & sem-4 (29) |
-| Java | 72 | TY sem-5 |
+| Java | 73 | TY sem-5 |
 | PHP | 71 | TY sem-5 |
 | SQL | 13 | TY sem-5 |
-| **Total** | **566** | 4 semesters |
+| **Total** | **567** | 4 semesters |
 
 ## Topics Covered
 
@@ -203,7 +210,7 @@ Programs/
 
 ### Semester 5 — Java, PHP & SQL (TY)
 
-**Java** (72 programs)
+**Java** (73 programs)
 * Basic I/O with `Scanner`
 * Conditionals (`if-else`, `switch`), Loops (`for`, `while`, `break`, for-each)
 * Arrays, Object-Oriented basics (`class`, `object`, `inheritance`)
@@ -211,6 +218,7 @@ Programs/
 * Command-line arguments and exception handling
 * Practical assignments (23 programs): Palindrome check, number theory, I/O operations
 * Unit-2 Assignment (9 programs): Student grading, calculator, day-of-week, for-each loop, command-line arithmetic, shopping list, employee records, item/book class operations
+* Unit-3 Practice: Inheritance demo
 
 **PHP** (71 programs)
 * Self-posting HTML forms with embedded PHP

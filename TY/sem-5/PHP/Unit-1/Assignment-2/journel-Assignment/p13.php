@@ -1,3 +1,4 @@
+<!-- Q13. Write a PHP script to calculate the area of a rectangle given length and width. -->
 <html>
 	<head>
 	</head>

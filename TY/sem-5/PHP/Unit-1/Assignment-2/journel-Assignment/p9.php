@@ -1,3 +1,4 @@
+<!-- Q9. Write a PHP script to accept names and ages using arrays and display them. -->
 <html>
 	<head>
 	</head>
@@ -32,3 +33,16 @@
 		
 	}
 ?>
+
+<!--
+Output:
+Name 1: Rahul
+Age 1: 20
+Name 2: Priya
+Age 2: 21
+
+Name is: Rahul
+Age is: 20
+Name is: Priya
+Age is: 21
+-->
