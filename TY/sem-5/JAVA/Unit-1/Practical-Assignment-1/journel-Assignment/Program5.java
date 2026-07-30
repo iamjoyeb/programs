@@ -1,14 +1,20 @@
+import java.util.Scanner;
+
 public class Program5 {
     public static void main(String[] args) {
-        if (args.length != 4) {
-            System.out.println("Usage: java Program5 <num1> <operator> <num2>");
-            System.out.println("Example: java Program5 10 + 20");
-            return;
-        }
+        Scanner sc = new Scanner(System.in);
 
-        double num1 = Double.parseDouble(args[0]);
-        String operator = args[1];
-        double num2 = Double.parseDouble(args[2]);
+        System.out.println("Simple Calculator");
+        System.out.println("==================");
+
+        System.out.print("Enter first number: ");
+        double num1 = sc.nextDouble();
+
+        System.out.print("Enter operator (+ - * /): ");
+        String operator = sc.next();
+
+        System.out.print("Enter second number: ");
+        double num2 = sc.nextDouble();
 
         switch (operator) {
             case "+":
@@ -30,14 +36,28 @@ public class Program5 {
             default:
                 System.out.println("Invalid operator!");
         }
+
+        sc.close();
     }
 }
 
 /*
 Output:
-$ java Program5 10 + 20
+Simple Calculator
+==================
+Enter first number:
+10
+Enter operator (+ - * /):
++
+Enter second number:
+20
 Result: 30.0
 
-$ java Program5 15 * 4
+Enter first number:
+15
+Enter operator (+ - * /):
+*
+Enter second number:
+4
 Result: 60.0
 */
