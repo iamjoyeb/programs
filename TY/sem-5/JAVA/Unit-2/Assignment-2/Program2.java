@@ -1,3 +1,7 @@
+// Q2. Write a Java program to create a menu-driven calculator using switch case.
+//     The menu should display Addition, Subtraction, Multiplication and Division.
+//     Accept two numbers and an operation choice from the user.
+
 import java.util.Scanner;
 
 public class Program2 {

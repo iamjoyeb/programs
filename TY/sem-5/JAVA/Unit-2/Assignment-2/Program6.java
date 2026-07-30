@@ -1,3 +1,7 @@
+// Q6. Write a Java program to create a ShoppingItem class with itemCode, itemName
+//     and itemPrice. Accept details for N items, display the shopping list
+//     and calculate the total price.
+
 import java.util.Scanner;
 
 class ShoppingItem {

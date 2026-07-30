@@ -1,3 +1,7 @@
+// Q4. Write a Java program to demonstrate the use of for-each loop.
+//     Create an array of integers and display all elements, find the sum,
+//     and print only the even numbers using for-each loop.
+
 public class Program4 {
     public static void main(String[] args) {
         int[] numbers = {10, 20, 30, 40, 50};

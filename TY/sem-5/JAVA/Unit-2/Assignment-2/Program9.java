@@ -1,3 +1,7 @@
+// Q9. Write a Java program to create a Book class with accno, name and price.
+//     Accept details for N books using getdata() method and display using
+//     dish() method.
+
 import java.util.Scanner;
 
 class Book {

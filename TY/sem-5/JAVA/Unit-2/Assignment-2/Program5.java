@@ -1,3 +1,7 @@
+// Q5. Write a Java program to perform arithmetic operations using command-line arguments.
+//     Accept two numbers and an operator (+, -, *, /) as command-line arguments
+//     and display the result.
+
 public class Program5 {
     public static void main(String[] args) {
         if (args.length != 4) {

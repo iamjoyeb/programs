@@ -1,3 +1,7 @@
+// Q1. Write a Java program to create a Student class with name, roll number and percentage.
+//     Accept student details and display them along with the result
+//     (Fail, Pass Class, Second Class, First Class, Distinction) based on percentage.
+
 import java.util.Scanner;
 
 class Student {

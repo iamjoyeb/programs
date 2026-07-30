@@ -1,3 +1,6 @@
+// Q3. Write a Java program to accept a day number (1-7) from the user and display
+//     the corresponding day name using switch case.
+
 import java.util.Scanner;
 
 public class Program3 {

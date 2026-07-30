@@ -1,3 +1,7 @@
+// Q8. Write a Java program to create an Item class with itemno, qty and rate.
+//     Accept details for N items using getitem() method and display using
+//     dishitem() method with calculated amount (qty * rate).
+
 import java.util.Scanner;
 
 class Item {

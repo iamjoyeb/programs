@@ -1,3 +1,6 @@
+// Q7. Write a Java program to create an Employee class with empNo, name, age
+//     and salary. Accept details for 3 employees and display them.
+
 import java.util.Scanner;
 
 class Employee {
