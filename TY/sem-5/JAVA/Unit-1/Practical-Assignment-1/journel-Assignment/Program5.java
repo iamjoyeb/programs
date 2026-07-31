@@ -1,64 +1,46 @@
 /*Create a class student with rno, sname and city as class member and get the detail form the user and display it on the screen. */
 import java.util.Scanner;
+class Student {
+    int rno;
+    String sname;
+    String city;
 
-public class Program5 {
-    public static void main(String[] args) {
+    void getData() {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Simple Calculator");
-        System.out.println("==================");
+        System.out.print("Enter Roll Number: ");
+        rno = sc.nextInt();
 
-        System.out.print("Enter first number: ");
-        double num1 = sc.nextDouble();
+        System.out.print("Enter Student Name: ");
+        sname = sc.next();
 
-        System.out.print("Enter operator (+ - * /): ");
-        String operator = sc.next();
+        System.out.print("Enter City: ");
+        city = sc.next();
 
-        System.out.print("Enter second number: ");
-        double num2 = sc.nextDouble();
+        sc.close();   // Fix Scanner resource leak
+    }
 
-        switch (operator) {
-            case "+":
-                System.out.println("Result: " + (num1 + num2));
-                break;
-            case "-":
-                System.out.println("Result: " + (num1 - num2));
-                break;
-            case "*":
-                System.out.println("Result: " + (num1 * num2));
-                break;
-            case "/":
-                if (num2 != 0) {
-                    System.out.println("Result: " + (num1 / num2));
-                } else {
-                    System.out.println("Error: Division by zero!");
-                }
-                break;
-            default:
-                System.out.println("Invalid operator!");
-        }
+    void displayData() {
+        System.out.println("\n--- Student Details ---");
+        System.out.println("Roll Number : " + rno);
+        System.out.println("Student Name: " + sname);
+        System.out.println("City        : " + city);
+    }
 
-        sc.close();
+    public static void main(String[] args) {
+        Student s = new Student();
+        s.getData();
+        s.displayData();
     }
 }
-
 /*
-Output:
-Simple Calculator
-==================
-Enter first number:
-10
-Enter operator (+ - * /):
-+
-Enter second number:
-20
-Result: 30.0
+    OUTPUT:
+    Enter Roll Number: 101
+    Enter Student Name: Rahul
+    Enter City: Ahmedabad
 
-Enter first number:
-15
-Enter operator (+ - * /):
-*
-Enter second number:
-4
-Result: 60.0
+    --- Student Details ---
+    Roll Number : 101
+    Student Name: Rahul
+    City        : Ahmedabad
 */
