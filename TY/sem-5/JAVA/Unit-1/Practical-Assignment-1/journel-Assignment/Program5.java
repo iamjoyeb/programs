@@ -1,3 +1,4 @@
+/*Create a class student with rno, sname and city as class member and get the detail form the user and display it on the screen. */
 import java.util.Scanner;
 
 public class Program5 {
