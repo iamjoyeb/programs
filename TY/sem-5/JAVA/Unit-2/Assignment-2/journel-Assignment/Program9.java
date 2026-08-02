@@ -3,7 +3,6 @@
 //     dish() method.
 
 import java.util.Scanner;
-
 class Book {
     int accno;
     String name;

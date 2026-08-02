@@ -3,7 +3,6 @@
 //     (Fail, Pass Class, Second Class, First Class, Distinction) based on percentage.
 
 import java.util.Scanner;
-
 class Student {
     String name;
     int rollNo;
