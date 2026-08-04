@@ -1,74 +1,73 @@
-/* Write a java program that read and display information that contains the following 
-classes. Class emp(Emp_no, Emp_name, Salary), Class Dept(Dept_code, name). 
-Use single inheritance.*/
+/* Write a java code that define class student with rno, name, mark1, mark2, mark3
+and another class result with total and percentage and define a method to display
+this value. */
 
 import java.util.*;
-class emp{
-	int eno;
-	String ename;
-	double salary;
-	void einput(){
+class student{
+	int rno;
+	String name;
+	double m1,m2,m3;
+	
+	void sinput(){
 		Scanner sc=new Scanner(System.in);
-		System.out.print("Enter Employee NO: ");
-		eno=sc.nextInt();
+		System.out.print("Enter Student Roll No: ");
+		rno=sc.nextInt();
+
 		sc.nextLine();
-		System.out.print("Enter Employee Name: ");
-		ename=sc.nextLine();
-		System.out.print("Enter Employee Salary: ");
-		salary=sc.nextDouble();
-		//sc.close();
+		System.out.print("Enter Student Name: ");
+		name=sc.nextLine();
+		System.out.print("Enter Student Mark 1: ");
+		m1=sc.nextInt();
+		System.out.print("Enter Student Mark 2: ");
+		m2=sc.nextInt();
+		System.out.print("Enter Student Mark 3: ");
+		m3=sc.nextInt();
 	}
-	void edisplay(){
-		System.out.println("Employee Number is: "+eno);
-		System.out.println("Employee Name is: "+ename);
-		System.out.println("Employee Salary is: "+salary);
+
+	void sdisplay(){
+		System.out.println("Student Roll No is: "+rno);
+		System.out.println("Student Name is: "+name);
+		System.out.println("Student Mark 1 is: "+m1);
+		System.out.println("Student Mark 2 is: "+m2);
+		System.out.println("Student Mark 3 is: "+m3);
+
 	}
 }
 
-class dep extends emp{
-	int dcode;
-	String dname;
-	
-	void dinput(){
-		Scanner sc=new Scanner(System.in);
-		System.out.print("Enter Department NO: ");
-		dcode=sc.nextInt();
-		sc.nextLine();
-		System.out.print("Enter Department Name: ");
-		dname=sc.nextLine();
-		//sc.close();	
-	}
-	
-	void ddisplay(){
-		System.out.println("Department Code is: "+dcode);
-		System.out.println("Department Name is: "+dname);
-	}
+class result extends student{
+		double total,per;
+
+		void rdisplay(){
+			total=m1+m2+m3;
+			per=total/3;
+			System.out.println("Total Mark  is: "+total);
+			System.out.println("Total Percentage is: "+per+"%");
+		}
+		
 }
 
-class p1{
+class p2{
 	public static void main(String args[]){
-		dep d=new dep();
-		d.einput();
-		d.dinput();
-		System.out.println("Employee Details: ");
-		d.edisplay();
-		System.out.println("Departement Details: ");
-		d.ddisplay();
+		result s=new result();
+		s.sinput();
+		System.out.println("Student Details:");
+		s.sdisplay();
+		s.rdisplay();
 	}
 }
-
 /*
 	OUTPUT:
-	Enter Employee NO: 28
-	Enter Employee Name: joyeb
-	Enter Employee Salary: 10000
-	Enter Department NO: 10
-	Enter Department Name: BCA
-		Employee Details:
-			Employee Number is: 28
-			Employee Name is: joyeb
-			Employee Salary is: 10000.0
-		Departement Details:
-			Department Code is: 10
-			Department Name is: BCA
+	Enter Student Roll No: 28
+	Enter Student Name: joyeb
+	Enter Student Mark 1: 90
+	Enter Student Mark 2: 99
+	Enter Student Mark 3: 95
+	Student Details:
+	Student Roll No is: 28
+	Student Name is: joyeb
+	Student Mark 1 is: 90.0
+	Student Mark 2 is: 99.0
+	Student Mark 3 is: 95.0
+	Total Mark  is: 284.0
+	Total Percentage is: 94.66666666666667%
 */
