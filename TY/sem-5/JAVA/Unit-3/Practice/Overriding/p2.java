@@ -27,3 +27,10 @@ class p2{
         sc.close();
     }
 }
+/*
+    OUTPUT:
+    Enter Number 1: 10
+    Enter Number 2: 20
+    Addition is:30
+    Substraction is:-10
+*/
