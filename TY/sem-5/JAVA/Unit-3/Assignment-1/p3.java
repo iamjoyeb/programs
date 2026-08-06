@@ -39,11 +39,13 @@ class book1 extends book{
 }
 
 class book2 extends book1{
-
+	void b2(){
+		System.out.println("All Operations Worked Sucssfully");
+	}
 }
 
 class p3{
-    public static void main(){
+    public static void main(String args[]){
         book2 b=new book2();
         b.binput();
         b.b1input();
@@ -53,14 +55,17 @@ class p3{
     }
 }
 /*
-    OUTPUT:
-    Enter Book Number: 128
-    Enter Book Name: JAVA
-    Enter Author Number: john
-    Enter Publisher Name: john
-    ----Book Details----
-    Book Number is : 128
-    Book Name is : JAVA
-    Book Number is : john
-    Book Name is : john
+	OUTPUT:
+	
+    Enter Book Number: 101
+	Enter Book Name: java
+	Enter Author Number: jk
+	Enter Publisher Name: mn
+	
+		----Book Details----
+		
+	Book Number is : 101
+	Book Name is : java
+	Book Number is : jk
+	Book Name is : mm
 */
