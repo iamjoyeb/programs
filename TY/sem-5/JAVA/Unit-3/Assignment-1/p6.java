@@ -10,6 +10,8 @@ class Student{
     void sinput(){
         System.out.print("Enter Roll Number: ");
         rno=sc.nextInt();
+
+        sc.nextLine();
         System.out.print("Enter Name: ");
         name=sc.nextLine();
     }
@@ -40,11 +42,43 @@ class mark extends Student{
 }
 
 class result extends mark{
-    
+    int total;
+    double per;
+
+    void rdisplay(){
+        total=m1+m2+m3;
+        per=total/3;
+        System.out.println("Total Mark is: "+total);
+        System.out.println("Percentage is: "+per);
+    }
 }
 
 class p6{
     public static void main(String args[]){
-
+        result r=new result();
+        r.sinput();
+        r.minput();
+        System.out.println("Student Details: ");
+        r.sdisplay();
+        r.mdisplay();
+        r.rdisplay();
     }
 }
+/*
+    OUTPUT:
+    Enter Roll Number: 28
+    Enter Name: joyeb
+    Enter Mark 1: 80
+    Enter Mark 2: 99
+    Enter Mark 3: 98
+
+    Student Details:
+    
+    Student Roll Number is: 28
+    Student Name is: joyeb
+    Student Mark 1 is: 80
+    Student Mark 2 is: 99
+    Student Mark 3 is: 98
+    Total Mark is: 277
+    Percentage is: 92.0
+*/
