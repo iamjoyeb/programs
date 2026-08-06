@@ -7,8 +7,10 @@ import java.util.*;
 class book{
     int bno;
     String bname;
+
+    Scanner sc=new Scanner(System.in);
+
     void binput(){
-        Scanner sc=new Scanner(System.in);
         System.out.print("Enter Book Number: ");
         bno=sc.nextInt();
         sc.nextLine();
@@ -25,7 +27,6 @@ class book{
 class book1 extends book{
     String aname,pname;
     void b1input(){
-        Scanner sc=new Scanner(System.in);
         System.out.print("Enter Author Number: ");
         aname=sc.nextLine();
         System.out.print("Enter Publisher Name: ");

@@ -8,8 +8,10 @@ display detail as per given class information. First Class SVGC With details:
 class SVGC{
     int Sid;
 	String name;
+
+	Scanner sc=new Scanner(System.in);
+
 		void sinput(){
-			Scanner sc=new Scanner(System.in);
 			System.out.print("Enter Student ID: ");
 			Sid=sc.nextInt();
 			sc.nextLine();
@@ -29,7 +31,6 @@ class BCA extends SVGC{
 	String div;
 	
 	void input(){
-		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter Student Semester: ");
 		sem=sc.nextInt();
 		
@@ -54,7 +55,6 @@ class MSW extends SVGC{
 	String div;
 	
 	void input(){
-		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter Student Semester: ");
 		sem=sc.nextInt();
 		
@@ -79,7 +79,6 @@ class BHMS extends SVGC{
 	String div;
 	
 	void input(){
-		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter Student Semester: ");
 		sem=sc.nextInt();
 		

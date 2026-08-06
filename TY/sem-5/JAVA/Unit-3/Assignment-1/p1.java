@@ -7,8 +7,9 @@ class emp{
 	int eno;
 	String ename;
 	double salary;
+	Scanner sc=new Scanner(System.in);
 	void einput(){
-		Scanner sc=new Scanner(System.in);
+		
 		System.out.print("Enter Employee NO: ");
 		eno=sc.nextInt();
 		sc.nextLine();
@@ -30,7 +31,6 @@ class dep extends emp{
 	String dname;
 	
 	void dinput(){
-		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter Department NO: ");
 		dcode=sc.nextInt();
 		sc.nextLine();

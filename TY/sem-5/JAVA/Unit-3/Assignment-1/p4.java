@@ -6,7 +6,9 @@ import java.util.*;
 
 class car1{
     String cname;
-	String cmodel;   
+	String cmodel;  
+	
+	Scanner sc=new Scanner(System.in);
 }
 
 class car2 extends car1{
@@ -16,7 +18,6 @@ class car2 extends car1{
 
 class car3 extends car2{
 	void getdata(){
-		Scanner sc=new Scanner(System.in);
         System.out.print("Enter Car Model: ");
         cmodel=sc.nextLine();
         System.out.print("Enter Car Name: ");

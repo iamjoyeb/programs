@@ -8,8 +8,9 @@ class student{
 	String name;
 	double m1,m2,m3;
 	
+	Scanner sc=new Scanner(System.in);
+	
 	void sinput(){
-		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter Student Roll No: ");
 		rno=sc.nextInt();
 
