@@ -53,12 +53,13 @@ class p3{
         System.out.println("----Book Details----");
         b.bdisplay();
         b.b1display();
+        b.b2();
     }
 }
 /*
 	OUTPUT:
 	
-    Enter Book Number: 101
+ Enter Book Number: 101
 	Enter Book Name: java
 	Enter Author Number: jk
 	Enter Publisher Name: mn
@@ -68,5 +69,7 @@ class p3{
 	Book Number is : 101
 	Book Name is : java
 	Book Number is : jk
-	Book Name is : mm
+	Book Name is : m
+ 
+ All operations Worked Successfully 
 */
