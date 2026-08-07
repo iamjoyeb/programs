@@ -59,7 +59,7 @@ class p3{
 /*
 	OUTPUT:
 	
- Enter Book Number: 101
+    Enter Book Number: 101
 	Enter Book Name: java
 	Enter Author Number: jk
 	Enter Publisher Name: mn
@@ -71,5 +71,5 @@ class p3{
 	Book Number is : jk
 	Book Name is : m
  
- All operations Worked Successfully 
+    All operations Worked Successfully 
 */
