@@ -1,0 +1,23 @@
+# Compiled objects and binaries
+*.o
+*.obj
+*.exe
+*.out
+*.class
+
+# Build output
+build/
+dist/
+bin/
+Debug/
+Release/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS noise
+.DS_Store
+Thumbs.db
