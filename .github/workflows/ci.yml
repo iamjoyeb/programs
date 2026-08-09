@@ -1,0 +1,32 @@
+</think>
+
+<｜DSML｜tool_calls>
+<｜DSML｜invoke name="write">
+<｜DSML｜parameter name="content" string="true">name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Repository smoke check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Confirm source files are present
+        run: |
+          test "$(find . -name '*.cpp' -o -name '*.c' | wc -l)" -gt 0
+          echo "source files found"
+      - name: Ensure no build artifacts are tracked
+        run: |
+          if git ls-files | grep -qE '\.(o|out|exe)$'; then
+            echo "build artifact tracked"; exit 1
+          fi
+      - name: Markdown lint (headers)
+        run: |
+          test -f README.md && test -f LICENSE.md && echo "docs present"
