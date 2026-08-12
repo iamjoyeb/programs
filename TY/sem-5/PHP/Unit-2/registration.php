@@ -28,9 +28,15 @@
 								<tr> 
 									<td> Choose Subject </td>
 									
+<<<<<<< HEAD
 												<td> <input type='checkbox' name='sub[]' value='Software Enginering '> Software Enginering 
 												     <input type='checkbox' name='sub[]' value='JAVA'> JAVA 
 													 <input type='checkbox' name='sub[]' value='ORACLE'> ORACLE 
+=======
+												<td> <input type='checkbox' name='se' value='on'> Software Enginering 
+												     <input type='checkbox' name='java' value='on'> JAVA 
+													 <input type='checkbox' name='dtb' value='on'> ORACLE 
+>>>>>>> 78478762b91bf5dcc2a29164230d11c455a243bb
 												</td> 
 								</tr>
 																	
@@ -47,9 +53,15 @@
 									<td> Select Youre Class </td>
 									<td>
 										<select name='dropdown'>
+<<<<<<< HEAD
 											<option value='Class A' selectd>  A </option>
 											<option value='Class B' selectd>  B </option>
 											<option value='Class C' selectd>  C </option>
+=======
+											<option value='Class A' selectd> Class A </option>
+											<option value='Class B' selectd> Class B </option>
+											<option value='Class C' selectd> Class C </option>
+>>>>>>> 78478762b91bf5dcc2a29164230d11c455a243bb
 										</select>
 									</td>
 								</tr>
@@ -68,6 +80,7 @@
 			
 			<?php 
 				if(isset($_POST['submit'])){
+<<<<<<< HEAD
 					$fname=$_POST['First-Name'];
 					$sname=$_POST['Second-Name'];
 					$uid=$_POST['user-id'];
@@ -87,6 +100,9 @@
 					echo "Class  is: ".$sclass."<br>";
 					
 					/*echo "<table align='center' border='1'> <tr> <td> First Name is:</tr> <td>$fname </td></tr>  </table>";*/
+=======
+					echo "working";
+>>>>>>> 78478762b91bf5dcc2a29164230d11c455a243bb
 				}
 			?>
 		</body>
