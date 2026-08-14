@@ -35,6 +35,9 @@ Programs/
 │   │   │       │   ├── Operator Overloading/            (15 programs)
 │   │   │       │   └── Operator Overloading using Unary Method/(5 programs)
 │   │   │       └── Examples/                          (9 programs)
+│   │   │           ├── Operator OverLoading Friend Function/ (4 programs)
+│   │   │           ├── Operator OverLoading Member Function/ (4 programs)
+│   │   │           └── Type Conversion/                 (1 program)
 │   │   │
 │   │   └── DFS/                                 # Data Structures in C (19 programs)
 │   │       ├── unit 1/                          # Sorting, Searching, Sparse Matrix (7 programs)
@@ -82,10 +85,11 @@ Programs/
 │       │           ├── Formatting_Output/       (15 programs)
 │       │           └── Getline_and_Basic_Stream/ (7 programs)
 │       │
-│       └── DFS-II/                              # Advanced Data Structures in C (29 programs)
-│           ├── Unit-1/                          # Graphs (BFS/DFS) (6 programs)
+│       └── DFS-II/                              # Advanced Data Structures in C (30 programs)
+│           ├── Unit-1/                          # Graphs (BFS/DFS) (7 programs)
 │           │   ├── BFS_Travelling.c
 │           │   ├── adjacent_matrix.c
+│           │   ├── dfs_BFS_ADJACENT.C
 │           │   └── Practical Assignment/        (4 programs)
 │           ├── Unit-2/                          # Binary Search Trees (3 programs)
 │           ├── Unit-3/                          # Series, Patterns & File I/O (11 programs)
@@ -93,13 +97,13 @@ Programs/
 │
 └── TY/                                          # Third Year
     └── sem-5/
-        ├── JAVA/                                # Java Programming (73 programs)
+        ├── JAVA/                                # Java Programming (93 programs)
         │   ├── Practice/                        (15 programs)
         │   ├── Unit-1/
         │   │   ├── Practical-Assignment-1/      (23 programs)
         │   │   │   ├── Not-journel-Assignment/  (10 programs)
         │   │   │   └── journel-Assignment/      (13 programs)
-        │   │   └── Practice/
+        │   │   └── Practice/                    (25 programs)
         │   │       ├── practical-programs/      (3 programs)
         │   │       └── practice-programs/
         │   │           ├── Static/              (17 programs)
@@ -109,18 +113,29 @@ Programs/
         │   │       ├── Not-journel-Assignment/  (1 program)
         │   │       └── journel-Assignment/      (8 programs)
         │   └── Unit-3/
-        │       └── Practice/                    (1 program)
+        │       ├── Assignment-1/                (18 programs)
+        │       │   ├── ABSTRACT-METHOD/          (2 programs)
+        │       │   ├── Method_overloading_and_overriding/ (5 programs)
+        │       │   ├── POLYMORHISM(DYNAMIC-DISPATCH)/ (2 programs)
+        │       │   └── inheritance-programs/     (9 programs)
+        │       └── Practice/                    (3 programs)
+        │           ├── Inheritance/              (1 program)
+        │           └── Overriding/              (2 programs)
         │
-        ├── PHP/                                 # PHP Programming (71 programs)
-        │   └── Unit-1/
-        │       ├── Assignment-1/
-        │       │   ├── M-programs/              (20 programs)
-        │       │   ├── journel-Assignment/      (17 programs)
-        │       │   └── non-journel-Assignment/  (3 programs)
-        │       ├── Assignment-2/                (13 programs)
-        │       └── practice-programs/
-        │           ├── M-programs/              (8 programs)
-        │           └── programs/                (10 programs)
+        ├── PHP/                                 # PHP Programming (72 programs)
+        │   ├── Unit-1/
+        │   │   ├── Assignment-1/
+        │   │   │   ├── M-programs/              (20 programs)
+        │   │   │   ├── journel-Assignment/      (17 programs)
+        │   │   │   └── non-journel-Assignment/  (3 programs)
+        │   │   ├── Assignment-2/                (13 programs)
+        │   │   │   ├── journel-Assignment/      (10 programs)
+        │   │   │   └── non-journel-Assignment/  (3 programs)
+        │   │   └── practice-programs/
+        │   │       ├── M-programs/              (8 programs)
+        │   │       └── programs/                (10 programs)
+        │   └── Unit-2/
+        │       └── registration.php             (1 program)
         │
         └── oracle(database)/                    # SQL Exercises (13 files)
             ├── p1.md                             # Assignment 1: stud_result table
@@ -143,11 +158,11 @@ Programs/
 | Language | Count | Semester(s) |
 |----------|-------|-------------|
 | C++ | 362 | SY sem-3 (178) & sem-4 (184) |
-| C | 48 | SY sem-3 (19) & sem-4 (29) |
-| Java | 73 | TY sem-5 |
-| PHP | 71 | TY sem-5 |
+| C | 49 | SY sem-3 (19) & sem-4 (30) |
+| Java | 93 | TY sem-5 |
+| PHP | 72 | TY sem-5 |
 | SQL | 13 | TY sem-5 |
-| **Total** | **567** | 4 semesters |
+| **Total** | **589** | 4 semesters |
 
 ## Topics Covered
 
@@ -203,24 +218,26 @@ Programs/
 * `getline()` and basic stream operations
 * File-based record management (student, employee, product)
 
-**Advanced Data Structures (C)** — (29 programs)
-* **Unit 1**: Graph representation (Adjacency Matrix), BFS & DFS traversal (6 programs)
+**Advanced Data Structures (C)** — (30 programs)
+* **Unit 1**: Graph representation (Adjacency Matrix), BFS & DFS traversal (7 programs)
 * **Unit 2**: Binary Search Tree (array-based & pointer-based), Inorder/Preorder/Postorder traversals (3 programs)
 * **Unit 3**: Fibonacci series, Square/Cube series, Number patterns, File I/O (11 programs)
 
 ### Semester 5 — Java, PHP & SQL (TY)
 
-**Java** (73 programs)
+**Java** (93 programs)
 * Basic I/O with `Scanner`
 * Conditionals (`if-else`, `switch`), Loops (`for`, `while`, `break`, for-each)
 * Arrays, Object-Oriented basics (`class`, `object`, `inheritance`)
 * Interfaces
 * Command-line arguments and exception handling
 * Practical assignments (23 programs): Palindrome check, number theory, I/O operations
+* Unit-1 Practice (25 programs): Static initializers, dynamic behavior, practical and practice exercises
 * Unit-2 Assignment (9 programs): Student grading, calculator, day-of-week, for-each loop, command-line arithmetic, shopping list, employee records, item/book class operations
-* Unit-3 Practice: Inheritance demo
+* Unit-3 Assignment-1 (18 programs): Abstract methods, method overloading & overriding, polymorphism (dynamic dispatch), and inheritance programs
+* Unit-3 Practice (3 programs): Inheritance and method overriding demos
 
-**PHP** (71 programs)
+**PHP** (72 programs)
 * Self-posting HTML forms with embedded PHP
 * Conditional logic (odd/even, greatest of three, ternary operator)
 * Loops (Fibonacci series, factorials, foreach, break, continue)
@@ -231,6 +248,7 @@ Programs/
 * Calculator with styled UI (CSS glassmorphism design)
 * Built-in functions, switch cases, positive/negative checks
 * Basic web backend operations
+* Unit-2: User registration form with styled UI (1 program)
 
 **Oracle SQL** (13 exercises)
 * DDL: `CREATE TABLE`, `ALTER TABLE`, `RENAME`, `DROP`
@@ -289,4 +307,4 @@ These programs follow a Computer Science / Information Technology curriculum cov
 
 ---
 
-*Last updated: July 2026*
+*Last updated: August 2026*
