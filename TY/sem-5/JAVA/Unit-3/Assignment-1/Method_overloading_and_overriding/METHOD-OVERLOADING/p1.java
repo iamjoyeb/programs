@@ -2,10 +2,10 @@
 import java.util.*;
 
 class add{
-    /*void calculate(int A , int B){
+    void calculate(int A , int B){
         System.out.println("Substraction is:"+(A-B));
     }
-	*/
+	
 	void calculate(double A , int B){
         System.out.println("Addition is:"+(A+B));
     }
@@ -21,7 +21,7 @@ class p1{
 
         add s=new add();
         s.calculate(A,B);
-        s.calculate(A,B);
+        s.calculate((double)A,B);
         sc.close();
     }
 }
@@ -29,6 +29,6 @@ class p1{
     OUTPUT:
     Enter Number 1: 10
     Enter Number 2: 20
-    Addition is:30
     Substraction is:-10
+    Addition is:30.0
 */
