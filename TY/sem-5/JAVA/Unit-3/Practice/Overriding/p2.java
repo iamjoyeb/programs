@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 class add{
     void calculate(int A , int B){
@@ -10,7 +10,7 @@ class sub extends add{
     @Override
     void calculate(int A , int B){
         super.calculate(A,B);
-         System.out.println("Substraction is:"+(A-B));
+        System.out.println("Substraction is:"+(A-B));
     }
 }
 
