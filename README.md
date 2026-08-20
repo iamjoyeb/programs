@@ -158,11 +158,11 @@ Programs/
 | Language | Count | Semester(s) |
 |----------|-------|-------------|
 | C++ | 362 | SY sem-3 (178) & sem-4 (184) |
-| C | 49 | SY sem-3 (19) & sem-4 (30) |
+| C | 48 | SY sem-3 (19) & sem-4 (29) |
 | Java | 93 | TY sem-5 |
 | PHP | 72 | TY sem-5 |
 | SQL | 13 | TY sem-5 |
-| **Total** | **589** | 4 semesters |
+| **Total** | **588** | 4 semesters |
 
 ## Topics Covered
 
@@ -218,7 +218,7 @@ Programs/
 * `getline()` and basic stream operations
 * File-based record management (student, employee, product)
 
-**Advanced Data Structures (C)** — (30 programs)
+**Advanced Data Structures (C)** — (29 programs)
 * **Unit 1**: Graph representation (Adjacency Matrix), BFS & DFS traversal (7 programs)
 * **Unit 2**: Binary Search Tree (array-based & pointer-based), Inorder/Preorder/Postorder traversals (3 programs)
 * **Unit 3**: Fibonacci series, Square/Cube series, Number patterns, File I/O (11 programs)
@@ -250,7 +250,7 @@ Programs/
 * Basic web backend operations
 * Unit-2: User registration form with styled UI (1 program)
 
-**Oracle SQL** (13 exercises)
+**Oracle SQL** (13 exercises + 2 markdown files)
 * DDL: `CREATE TABLE`, `ALTER TABLE`, `RENAME`, `DROP`
 * DML: `INSERT`, `UPDATE`, `DELETE`
 * Constraints: `PRIMARY KEY`, `NOT NULL`, `CHECK`, `FOREIGN KEY`
