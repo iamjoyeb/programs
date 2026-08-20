@@ -42,14 +42,5 @@ class p2{
 OUTPUT:
         Enter Int Value To run Fibonacci Series: 10
                 ------ FIBONACCI SERIES ------
-                        0 
-                        1 
-                        1 
-                        2 
-                        3 
-                        5 
-                        8 
-                        13 
-                        21 
-                        34 
+                        0,1,1,2,3,5,8,13,21,34 
 */
