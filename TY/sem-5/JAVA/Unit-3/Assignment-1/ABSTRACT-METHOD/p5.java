@@ -20,7 +20,6 @@ class p5{
         a.ad();
     }
 }
-
 /*
     OUTPUT:
     Abstract Class Demo: 
