@@ -98,7 +98,7 @@ class BHMS extends SVGC{
 }
 
 class p5{
-    public static void main(String args[]){
+    public static void main(String[] args){
        BCA bca=new BCA();
        MSW msw=new MSW();
        BHMS bhms=new BHMS();

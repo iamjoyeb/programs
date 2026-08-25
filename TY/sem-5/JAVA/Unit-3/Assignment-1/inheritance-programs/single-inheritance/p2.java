@@ -35,7 +35,7 @@ class student{
 	}
 }
 
-class result extends student{
+class results extends student{
 		double total,per;
 
 		void rdisplay(){
@@ -48,8 +48,8 @@ class result extends student{
 }
 
 class p2{
-	public static void main(String args[]){
-		result s=new result();
+	public static void main(String[] args){
+		results s=new results();
 		s.sinput();
 		System.out.println("Student Details:");
 		s.sdisplay();
@@ -63,6 +63,7 @@ class p2{
 	Enter Student Mark 1: 90
 	Enter Student Mark 2: 99
 	Enter Student Mark 3: 95
+
 	Student Details:
 	Student Roll No is: 28
 	Student Name is: joyeb
