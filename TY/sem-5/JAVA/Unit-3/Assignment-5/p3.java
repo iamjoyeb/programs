@@ -1,0 +1,1 @@
+/* Write a java programming code for demonstrate the use of Multiple Inheritance using interface.  */

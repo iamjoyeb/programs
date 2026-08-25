@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TY/sem-5/JAVA/Unit-3/Assignment-3/Assignment-3.iml" filepath="$PROJECT_DIR$/TY/sem-5/JAVA/Unit-3/Assignment-3/Assignment-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TY/sem-5/JAVA/Unit-3/Assignment-4/Assignment-4.iml" filepath="$PROJECT_DIR$/TY/sem-5/JAVA/Unit-3/Assignment-4/Assignment-4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TY/sem-5/JAVA/Unit-3/Assignment-4/Method_overloading_and_overriding/Method_overloading_and_overriding.iml" filepath="$PROJECT_DIR$/TY/sem-5/JAVA/Unit-3/Assignment-4/Method_overloading_and_overriding/Method_overloading_and_overriding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TY/sem-5/JAVA/Unit-1/Practical-Assignment-1/Practical-Assignment-1.iml" filepath="$PROJECT_DIR$/TY/sem-5/JAVA/Unit-1/Practical-Assignment-1/Practical-Assignment-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TY/sem-5/JAVA/Unit-3/Practice/Practice.iml" filepath="$PROJECT_DIR$/TY/sem-5/JAVA/Unit-3/Practice/Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TY/sem-5/JAVA/Unit-1/Practice/Practice2.iml" filepath="$PROJECT_DIR$/TY/sem-5/JAVA/Unit-1/Practice/Practice2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TY/sem-5/JAVA/Unit-2/Unit-2.iml" filepath="$PROJECT_DIR$/TY/sem-5/JAVA/Unit-2/Unit-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TY/sem-5/JAVA/Unit-1/Practice/practice-programs/practice-programs.iml" filepath="$PROJECT_DIR$/TY/sem-5/JAVA/Unit-1/Practice/practice-programs/practice-programs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/programs.iml" filepath="$PROJECT_DIR$/.idea/programs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TY/sem-5/JAVA/sem-5.iml" filepath="$PROJECT_DIR$/TY/sem-5/JAVA/sem-5.iml" />
+    </modules>
+  </component>
+</project>
