@@ -1,1 +1,0 @@
-/* Write a java programming code for demonstrate the use of Hybrid Inheritance using interface.  */

@@ -2,7 +2,8 @@
 
 import java.util.*;
 
-abstract class simple {
+abstract class simple
+ {
 
     double p, r, t;
 
@@ -40,7 +41,7 @@ class p6 {
         obj.sinput();
         obj.si();
     }
-}
+}				
 /*
     OUTPUT:
     Enter Principal Value : 25000

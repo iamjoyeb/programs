@@ -1,4 +1,4 @@
-/* WRITE A JAVA PROGRAM TO DEMONSTARTIC THE USE OF THE METHOD OVERRIDING IN PROGRA, */
+/* WRITE A JAVA PROGRAM TO DEMONSTARTIC THE USE OF THE METHOD OVERRIDING IN PROGRAM, */
 
 class override{
     void orr(){
@@ -7,6 +7,7 @@ class override{
 }
 
 class overridesecond extends override{
+	@Override
     void orr(){
         System.out.println("Call From overridesecond class orr method");
     }
