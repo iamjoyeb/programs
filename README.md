@@ -306,5 +306,5 @@ These programs follow a Computer Science / Information Technology curriculum cov
 * Database Management (SQL)
 
 ---
-*Last updated: August 2026*
 
+*Last updated: August 2026*
