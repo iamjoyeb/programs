@@ -1,1 +1,0 @@
-/* write a java program to demonstrate Acess Modifers */

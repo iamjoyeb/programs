@@ -1,1 +1,0 @@
-/* write a java program to demonstrate code for demonstarate creates and imports package */

@@ -1,2 +1,0 @@
-/* write a package code arithmatic that contains method to 
-deal all arithmatic operations also write a program to use the package */

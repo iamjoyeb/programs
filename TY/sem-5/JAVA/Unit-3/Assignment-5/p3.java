@@ -1,1 +1,0 @@
-/* write a java program to demonstrate code for demonstarate the use of Multiple inheritance using interface */
