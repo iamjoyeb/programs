@@ -97,7 +97,7 @@ Programs/
 │
 └── TY/                                          # Third Year
     └── sem-5/
-        ├── JAVA/                                # Java Programming (93 programs)
+        ├── JAVA/                                # Java Programming (102 programs)
         │   ├── Practice/                        (15 programs)
         │   ├── Unit-1/
         │   │   ├── Practical-Assignment-1/      (23 programs)
@@ -118,6 +118,19 @@ Programs/
         │       │   ├── Method_overloading_and_overriding/ (5 programs)
         │       │   ├── POLYMORHISM(DYNAMIC-DISPATCH)/ (2 programs)
         │       │   └── inheritance-programs/     (9 programs)
+        │       ├── Assignment-5/                (9 programs)
+        │       │   ├── interface/                (4 programs)
+        │       │   │   ├── p1.java               # Multiple interfaces with extends
+        │       │   │   ├── p2.java               # Interface with float return types
+        │       │   │   ├── p3.java               # Multiple inheritance using interface
+        │       │   │   └── p4.java               # Hybrid inheritance using interface
+        │       │   ├── Package/                  (4 programs)
+        │       │   │   ├── p5/                   # Create and import package
+        │       │   │   ├── p6/                   # Arithmetic package
+        │       │   │   ├── p8/                   # TYBCA package
+        │       │   │   └── PROGRAM-9/            # Games package
+        │       │   └── AccessModifier/           (1 program)
+        │       │       └── p7.java               # Access modifiers demo
         │       └── Practice/                    (3 programs)
         │           ├── Inheritance/              (1 program)
         │           └── Overriding/              (2 programs)
@@ -159,10 +172,10 @@ Programs/
 |----------|-------|-------------|
 | C++ | 362 | SY sem-3 (178) & sem-4 (184) |
 | C | 48 | SY sem-3 (19) & sem-4 (29) |
-| Java | 93 | TY sem-5 |
+| Java | 102 | TY sem-5 |
 | PHP | 72 | TY sem-5 |
 | SQL | 13 | TY sem-5 |
-| **Total** | **588** | 4 semesters |
+| **Total** | **597** | 4 semesters |
 
 ## Topics Covered
 
@@ -235,6 +248,7 @@ Programs/
 * Unit-1 Practice (25 programs): Static initializers, dynamic behavior, practical and practice exercises
 * Unit-2 Assignment (9 programs): Student grading, calculator, day-of-week, for-each loop, command-line arithmetic, shopping list, employee records, item/book class operations
 * Unit-3 Assignment-1 (18 programs): Abstract methods, method overloading & overriding, polymorphism (dynamic dispatch), and inheritance programs
+* Unit-3 Assignment-5 (9 programs): Interfaces (multiple, hybrid inheritance), Packages (create, import, arithmetic, TYBCA), Access modifiers
 * Unit-3 Practice (3 programs): Inheritance and method overriding demos
 
 **PHP** (72 programs)
@@ -307,4 +321,4 @@ These programs follow a Computer Science / Information Technology curriculum cov
 
 ---
 
-*Last updated: August 2026*
+*Last updated: September 2026*
