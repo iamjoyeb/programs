@@ -59,7 +59,7 @@ Programs/
 │       │   │   │   ├── Abstract Class/          (5 programs)
 │       │   │   │   ├── Constructor in Derived/  (5 programs)
 │       │   │   │   └── Nesting of class/        (5 programs)
-│       │   │   └── Examples/                    (11 programs)
+│       │   │   └── Examples/                    (11 programs + 1 stray gmon.out)
 │       │   ├── unit-2/                          # Polymorphism (49 programs)
 │       │   │   ├── Assignment-2/                (40 programs)
 │       │   │   │   ├── Complie time polymorphism Function Overloading/ (5 programs)
@@ -87,8 +87,8 @@ Programs/
 │       │
 │       └── DFS-II/                              # Advanced Data Structures in C (30 programs)
 │           ├── Unit-1/                          # Graphs (BFS/DFS) (7 programs)
-│           │   ├── BFS_Travelling.c
 │           │   ├── adjacent_matrix.c
+│           │   ├── BFS_Travelling.c
 │           │   ├── dfs_BFS_ADJACENT.C
 │           │   └── Practical Assignment/        (4 programs)
 │           ├── Unit-2/                          # Binary Search Trees (3 programs)
@@ -97,7 +97,7 @@ Programs/
 │
 └── TY/                                          # Third Year
     └── sem-5/
-        ├── JAVA/                                # Java Programming (102 programs)
+        ├── JAVA/                                # Java Programming (118 programs)
         │   ├── Practice/                        (15 programs)
         │   ├── Unit-1/
         │   │   ├── Practical-Assignment-1/      (23 programs)
@@ -112,30 +112,38 @@ Programs/
         │   │   └── Assignment-2/                (9 programs)
         │   │       ├── Not-journel-Assignment/  (1 program)
         │   │       └── journel-Assignment/      (8 programs)
-        │   └── Unit-3/
-        │       ├── Assignment-1/                (18 programs)
-        │       │   ├── ABSTRACT-METHOD/          (2 programs)
-        │       │   ├── Method_overloading_and_overriding/ (5 programs)
-        │       │   ├── POLYMORHISM(DYNAMIC-DISPATCH)/ (2 programs)
-        │       │   └── inheritance-programs/     (9 programs)
-        │       ├── Assignment-5/                (9 programs)
-        │       │   ├── interface/                (4 programs)
-        │       │   │   ├── p1.java               # Multiple interfaces with extends
-        │       │   │   ├── p2.java               # Interface with float return types
-        │       │   │   ├── p3.java               # Multiple inheritance using interface
-        │       │   │   └── p4.java               # Hybrid inheritance using interface
-        │       │   ├── Package/                  (4 programs)
-        │       │   │   ├── p5/                   # Create and import package
-        │       │   │   ├── p6/                   # Arithmetic package
-        │       │   │   ├── p8/                   # TYBCA package
-        │       │   │   └── PROGRAM-9/            # Games package
-        │       │   └── AccessModifier/           (1 program)
-        │       │       └── p7.java               # Access modifiers demo
-        │       └── Practice/                    (3 programs)
-        │           ├── Inheritance/              (1 program)
-        │           └── Overriding/              (2 programs)
+        │   ├── Unit-3/
+        │   │   ├── Assignment-3/                (9 programs)
+        │   │   │   ├── single-inheritance/      (2 programs)
+        │   │   │   ├── multiple-inheritance/    (3 programs)
+        │   │   │   └── hiearchical-inheritance/ (4 programs)
+        │   │   ├── Assignment-4/                (9 programs)
+        │   │   │   ├── ABSTRACT-METHOD/         (3 programs)
+        │   │   │   ├── Method_overloading_and_overriding/ (4 programs)
+        │   │   │   │   ├── METHOD-OVERLOADING/  (2 programs)
+        │   │   │   │   └── METHOD-OVERRIDING/   (2 programs)
+        │   │   │   └── POLYMORHISM(DYNAMIC-DISPATCH)/ (2 programs)
+        │   │   ├── Assignment-5/                (15 programs)
+        │   │   │   ├── interface/               (4 programs)
+        │   │   │   │   ├── p1.java               # Multiple interfaces with extends
+        │   │   │   │   ├── p2.java               # Interface with float return types
+        │   │   │   │   ├── p3.java               # Multiple inheritance using interface
+        │   │   │   │   └── p4.java               # Hybrid inheritance using interface
+        │   │   │   ├── AccessModifier/           (1 program)
+        │   │   │   │   └── p7.java               # Access modifiers demo
+        │   │   │   └── Package/                  (10 programs)
+        │   │   │       ├── p5/                   # Create and import package (mypack)
+        │   │   │       ├── p6/                   # Arithmetic package
+        │   │   │       ├── p8/                   # TYBCA package
+        │   │   │       └── p-9/                  # Games package (games, out, p9)
+        │   │   ├── Assignment-6/                (7 programs)
+        │   │   │   ├── p1.java … p7.java         # Constructors, classes, method overloading
+        │   │   └── Practice/                    (6 programs)
+        │   │       ├── Inheritance/              (1 program)
+        │   │       ├── Overriding/               (2 programs)
+        │   │       └── interface/                (3 programs)
         │
-        ├── PHP/                                 # PHP Programming (72 programs)
+        ├── PHP/                                 # PHP Programming (92 programs)
         │   ├── Unit-1/
         │   │   ├── Assignment-1/
         │   │   │   ├── M-programs/              (20 programs)
@@ -147,12 +155,23 @@ Programs/
         │   │   └── practice-programs/
         │   │       ├── M-programs/              (8 programs)
         │   │       └── programs/                (10 programs)
-        │   └── Unit-2/
-        │       └── registration.php             (1 program)
+        │   ├── Unit-2/
+        │   │   └── Assignment-3/                (7 files)
+        │   │       ├── p1/                       # Registration form → welcome.php (POST)
+        │   │       ├── p2-file-upload.php        # Generic file upload (5 MB limit)
+        │   │       ├── p3-image-upload.php       # Image-only upload (JPG/PNG + content check)
+        │   │       └── p4/                       # include/require demo (header/footer)
+        │   └── Unit-3/
+        │       └── Assignment-4/                # MySQL mini-apps (4 apps, 18 files)
+        │           ├── p1/                       # Employees: ORDER BY salary DESC
+        │           ├── p2/                       # Products: LIKE search (prepared stmt)
+        │           ├── p3/                       # Register: password/confirm comparison
+        │           └── p4/                       # Users: list, edit, delete (CRUD)
         │
-        └── oracle(database)/                    # SQL Exercises (13 files)
+        └── oracle(database)/                    # SQL Exercises (15 files)
             ├── p1.md                             # Assignment 1: stud_result table
             ├── p2.md                             # Assignment 2: CUSTOMER table
+            ├── p3.md                             # Assignment 3: Stud_Result table (reconstructed)
             ├── p4.md                             # Assignment 4: Emp/Dept tables
             ├── p5.md                             # Assignment 5: Customer with CHECK constraint
             ├── p6.md                             # Assignment 6: EMP table
@@ -163,7 +182,8 @@ Programs/
             ├── p11.md                            # Assignment 11: ACCOUNT table
             ├── p12.md                            # Assignment 12: STUD_MEMBER table
             ├── p13.md                            # Assignment 13: Department/Employee tables
-            └── p14.md                            # Assignment 14: SALESMEN/ITEM tables
+            ├── p14.md                            # Assignment 14: SALESMEN/ITEM tables
+            └── p15.md                            # Program 15: Account table
 ```
 
 ## Statistics
@@ -171,11 +191,11 @@ Programs/
 | Language | Count | Semester(s) |
 |----------|-------|-------------|
 | C++ | 362 | SY sem-3 (178) & sem-4 (184) |
-| C | 48 | SY sem-3 (19) & sem-4 (29) |
-| Java | 102 | TY sem-5 |
-| PHP | 72 | TY sem-5 |
-| SQL | 13 | TY sem-5 |
-| **Total** | **597** | 4 semesters |
+| Java | 118 | TY sem-5 |
+| PHP | 92 | TY sem-5 |
+| C | 49 | SY sem-3 (19) & sem-4 (30) |
+| SQL | 19 | TY sem-5 (15 exercise .md + 4 database.sql) |
+| **Total** | **640** | 4 semesters |
 
 ## Topics Covered
 
@@ -231,27 +251,30 @@ Programs/
 * `getline()` and basic stream operations
 * File-based record management (student, employee, product)
 
-**Advanced Data Structures (C)** — (29 programs)
-* **Unit 1**: Graph representation (Adjacency Matrix), BFS & DFS traversal (7 programs)
-* **Unit 2**: Binary Search Tree (array-based & pointer-based), Inorder/Preorder/Postorder traversals (3 programs)
+**Advanced Data Structures (C)** — (30 programs)
+* **Unit 1**: Graph representation (Adjacency Matrix), BFS & DFS traversal, dynamic vertex/edge input (7 programs)
+* **Unit 2**: Binary Search Tree creation and display, Inorder/Preorder/Postorder traversals, all BST operations (3 programs)
 * **Unit 3**: Fibonacci series, Square/Cube series, Number patterns, File I/O (11 programs)
 
 ### Semester 5 — Java, PHP & SQL (TY)
 
-**Java** (93 programs)
+**Java** (118 programs)
 * Basic I/O with `Scanner`
 * Conditionals (`if-else`, `switch`), Loops (`for`, `while`, `break`, for-each)
 * Arrays, Object-Oriented basics (`class`, `object`, `inheritance`)
-* Interfaces
+* Interfaces, Packages, Access modifiers
 * Command-line arguments and exception handling
-* Practical assignments (23 programs): Palindrome check, number theory, I/O operations
+* Top-level Practice (15 programs)
+* Unit-1 Practical Assignment (23 programs): Palindrome check, number theory, I/O operations
 * Unit-1 Practice (25 programs): Static initializers, dynamic behavior, practical and practice exercises
 * Unit-2 Assignment (9 programs): Student grading, calculator, day-of-week, for-each loop, command-line arithmetic, shopping list, employee records, item/book class operations
-* Unit-3 Assignment-1 (18 programs): Abstract methods, method overloading & overriding, polymorphism (dynamic dispatch), and inheritance programs
-* Unit-3 Assignment-5 (9 programs): Interfaces (multiple, hybrid inheritance), Packages (create, import, arithmetic, TYBCA), Access modifiers
-* Unit-3 Practice (3 programs): Inheritance and method overriding demos
+* Unit-3 Assignment-3 (9 programs): Single, multiple, and hierarchical inheritance (emp/dept, book/author/publisher, SVGC-BCA/MSW/BHMS)
+* Unit-3 Assignment-4 (9 programs): Abstract methods, method overloading & overriding, polymorphism (dynamic dispatch)
+* Unit-3 Assignment-5 (15 programs): Interfaces (multiple, hybrid inheritance), Packages (create, import, arithmetic, TYBCA, games), Access modifiers
+* Unit-3 Assignment-6 (7 programs): Constructor overloading, classes and objects (Person, Swap, Student, student_details, Interest, SIM, Rectangle)
+* Unit-3 Practice (6 programs): Inheritance, method overriding, and interface demos
 
-**PHP** (72 programs)
+**PHP** (92 programs)
 * Self-posting HTML forms with embedded PHP
 * Conditional logic (odd/even, greatest of three, ternary operator)
 * Loops (Fibonacci series, factorials, foreach, break, continue)
@@ -261,10 +284,10 @@ Programs/
 * Server information display (`$_SERVER`)
 * Calculator with styled UI (CSS glassmorphism design)
 * Built-in functions, switch cases, positive/negative checks
-* Basic web backend operations
-* Unit-2: User registration form with styled UI (1 program)
+* Unit-2 Assignment-3 (7 files): Registration form with styled UI, generic file upload, image-only upload with content verification, `include`/`require` with shared header/footer
+* Unit-3 Assignment-4 (4 MySQL mini-apps): Prepared statements (`mysqli`), CRUD operations, `ORDER BY`, `LIKE` search, password confirmation, edit/delete actions — each with its own `database.sql` and `db.php`
 
-**Oracle SQL** (13 exercises + 2 markdown files)
+**Oracle SQL** (15 exercises)
 * DDL: `CREATE TABLE`, `ALTER TABLE`, `RENAME`, `DROP`
 * DML: `INSERT`, `UPDATE`, `DELETE`
 * Constraints: `PRIMARY KEY`, `NOT NULL`, `CHECK`, `FOREIGN KEY`
@@ -305,9 +328,18 @@ java filename
 
 ### PHP Programs
 
+CLI scripts:
+
 ```bash
 php filename.php
 ```
+
+Web/database programs (Unit-2 Assignment-3, Unit-3 Assignment-4) require a local server such as XAMPP:
+
+1. Copy the program folder into `htdocs`.
+2. Import the folder's `database.sql` into MySQL (e.g. via phpMyAdmin).
+3. Adjust credentials in `db.php` if needed.
+4. Open the folder URL in a browser (e.g. `http://localhost/<folder>/index.php`).
 
 ## Academic Context
 
@@ -322,4 +354,4 @@ These programs follow a Computer Science / Information Technology curriculum cov
 ---
 
 
-*Last updated: September 2026*
+*Last updated: October 2026*
